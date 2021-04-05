@@ -1,0 +1,145 @@
+.header{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    height: 140px;
+    .logo_wrapp{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    img{
+        width: 100px;
+        height: 100px;
+        margin-right: 22px;
+    }
+    p{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 32px;
+        /* or 123% */
+        width: 238px;
+        height: 64px;
+
+        /* Blur */
+
+        color: #2C3E50;
+    }
+}
+.weather_lang_valute{
+    margin-top: 20px;
+    .weather{
+        .weather_count{
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 40px;
+            line-height: 46px;
+            /* identical to box height, or 115% */
+            width: 23px;
+            height: 46px;
+            color: #000000;
+           margin-left: 10px;
+        }
+        .weather_celsiy_circle{
+            width: 12px;
+            height: 12px;
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 30px;
+            line-height: 30px;
+            /* identical to box height, or 115% */
+            position: relative;
+            top: -8px;
+            color: #000000;
+        }
+        .weather_celsiy{
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 26px;
+            /* identical to box height, or 130% */
+
+            margin-left: -13px;
+            color: #000000;
+
+            opacity: 0.5;
+        }
+        p{
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 24px;
+            /* identical to box height, or 200% */
+
+            margin-top: 15px;
+            margin-bottom: 25px;
+            color: #000000;
+            .usd_balance{
+                color: red;
+                position: relative;
+                top:-5px;
+                left: 5px;
+            }
+        }
+    }
+    .lang{
+       .dropdown{
+           a{
+                color: #2C3E50;
+                font-family: Poppins;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 30px;
+           }
+       }
+        .dropdown_lang{
+            display: flex;
+            align-items: center;
+            position: relative;
+            top: -15px;
+            margin: 0 !important;
+            p{
+                font-family: Poppins;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 30px;
+                /* identical to box height, or 125% */
+
+
+                /* Blur */
+                margin-right: 15px;
+                color: #2C3E50;
+            }
+            img{
+                margin-right: 15px;
+            }
+            .dropdown_icon{
+                color: #2C3E50;
+            }
+        }
+        .usdvalute{
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 24px;
+            /* identical to box height, or 200% */
+            position: relative;
+            top: -25px;
+            margin-bottom: 25px;
+            color: #000000;
+            .usd_balance{
+                color: red;
+                position: relative;
+                top:-5px;
+                left: 5px;
+            }
+        }
+    }
+}
+}
