@@ -1,0 +1,121 @@
+.NeediesCard{
+    .cardNeedy{
+        background: #FFFFFF;
+        border: 1px solid #F0F3F5;
+        box-sizing: border-box;
+        border-radius: 10px;
+        width: 390px;
+        height: 591px;
+        box-shadow: none;
+        margin-bottom: 120px;
+        .card-content{
+            padding: 16px;
+        }
+        .card-image {
+            img{
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+                width: 390px;
+                height: 280px;
+                
+                // margin-bottom: 30px;
+            }
+        }
+        .name{
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 30px;
+            color: rgba(0, 0, 0, 0.9);
+            margin-bottom: 4px;
+        }
+        .age{
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 22px;
+            text-align: center;
+            color: rgba(0, 0, 0, 0.9);
+            opacity: 0.5;
+        }
+        .reason{
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 26px;
+            color: rgba(0, 0, 0, 0.9);
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        
+            .progress{
+                background-color: #c5d3f8 ;
+                border-radius: 15px;
+                width: 294px;
+                height: 6px;
+                margin-bottom: 10px;
+            .determinate{
+                background: #6B93FF;
+            }
+            
+        }
+        .amount_paid{
+            margin: 0;
+            font-family: Gilroy;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 20px;
+            line-height: 30px;
+            text-align: left;
+            color: rgba(0, 0, 0, 0.9);
+            span{
+                font-size: 18px;
+                line-height: 24px;
+            }
+        }
+        .amount_tobe_paid{
+            margin: 0;
+            font-family: Gilroy;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 20px;
+            line-height: 30px;
+            color: rgba(0, 0, 0, 0.9);
+            opacity: 0.5;
+            text-align: end;
+            margin-bottom: 22px;
+            span{
+                font-size: 18px;
+                line-height: 24px;
+            }
+        }
+        .volunterHelp{
+            display: flex;
+            align-items: center;
+            margin-bottom: 25px;
+            &:hover{
+                 .iconChevron{
+                     transform: translateX(10px);
+                    transition: all 0.3s ease;
+                 }
+            }
+            span{
+                font-family: Gilroy;
+                font-style: normal;
+                font-weight: 800;
+                font-size: 20px;
+                line-height: 22px;
+                letter-spacing: 0.03em;
+                text-transform: uppercase;
+                color: #6B93FF;
+            }
+            .iconChevron{
+                font-size: 30px;
+                color: #6B93FF;
+            }
+        }
+    }
+}

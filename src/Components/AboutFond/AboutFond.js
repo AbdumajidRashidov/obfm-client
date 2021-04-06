@@ -1,1 +1,0 @@
-import './AboutFond.scss'

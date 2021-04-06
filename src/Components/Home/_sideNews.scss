@@ -1,0 +1,69 @@
+.SideNews{
+    .SideNewsCard{
+        background: #FFFFFF;
+        border-radius: 12px;
+        width: 390px;
+        height: 270px;
+        margin: 0 0 25px 10px;
+        box-shadow: none;
+        padding: 10px;
+        .card-image{
+            img{
+                border-radius: 10px;
+            }
+        }
+        .card-content{
+            padding: 10px;
+        }
+        .categorynews{
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 16px;
+            /* identical to box height, or 133% */
+
+            text-align: center;
+            text-transform: uppercase;
+
+            /* blue */
+
+            color: #5B82EB;
+
+        }
+        .accessTime{
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            .accessTimeIcon{
+                opacity: 0.5;
+                font-size: 17px;
+                margin-right: 10px;
+            }
+            .accessDate{
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 12px;
+                line-height: 18px;
+                /* identical to box height, or 150% */
+
+                text-align: center;
+
+                /* black */
+
+                color: rgba(0, 0, 0, 0.9);
+            }
+        }
+        .SideNewsContex{
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 26px;
+            /* or 130% */
+            /* black */
+            color: rgba(0, 0, 0, 0.9);
+        }
+    }
+}

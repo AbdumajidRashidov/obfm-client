@@ -1,6 +1,7 @@
 .header{
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    // box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     height: 140px;
+    background-color: white;
     .logo_wrapp{
     display: flex;
     align-items: center;
@@ -86,6 +87,9 @@
         }
     }
     .lang{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
        .dropdown{
            a{
                 color: #2C3E50;
@@ -112,11 +116,11 @@
 
 
                 /* Blur */
-                margin-right: 15px;
+                margin-right: 20px;
                 color: #2C3E50;
             }
             img{
-                margin-right: 15px;
+                margin-right: 25px;
             }
             .dropdown_icon{
                 color: #2C3E50;
@@ -130,7 +134,7 @@
             line-height: 24px;
             /* identical to box height, or 200% */
             position: relative;
-            top: -25px;
+            top: -28px;
             margin-bottom: 25px;
             color: #000000;
             .usd_balance{

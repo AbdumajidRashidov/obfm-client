@@ -1,0 +1,151 @@
+.MainNews{
+    .mainNewsCard{
+        background: #FFFFFF;
+        border-radius: 12px;
+        width: 820px;
+        height: 860px;
+        padding: 15px;
+        box-shadow: none;
+        margin: 0;
+        
+        .card-image{
+            img{
+                border-radius: 10px !important;
+                cursor: pointer;
+            }
+            
+        }
+        .card-content{
+            padding: 0 15px !important;
+        }
+        .newsTag{
+            background: #e4ebff;
+            border-radius: 16px;
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 12px;
+            
+            /* identical to box height, or 133% */
+            width: 161px;
+            height: 32px;
+            text-align: center;
+            text-transform: uppercase;
+
+            /* blue */
+            margin: 24px 15px 0 15px;
+            color: #5B82EB;
+
+        }
+        .mainNewsContent{
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 32px;
+            /* or 133% */
+
+
+            /* black */
+
+            color: rgba(0, 0, 0, 0.9);
+            margin-bottom: 48px;
+            opacity: 0.5;
+        }
+        .mainNewsTitle{
+            font-family: Gilroy;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 32px;
+            line-height: 38px;
+            /* or 119% */
+            margin: 24px 0;
+ 
+            /* black */
+
+            color: rgba(0, 0, 0, 0.9);
+        }
+        .mainNewsMoreIcon{
+            position: relative;
+            left: 20px;
+            top: -150px;
+        }
+        .mainNewsCardCloseIcon{
+            position: relative;
+            left: 0px;
+            top: -130px;
+        }
+        .accessTime{
+            display: flex;
+            align-items: center;
+            .accessTimeIcon{
+                font-size: 30px;
+                margin-right: 12px;
+                opacity: 0.5;
+            }
+            .accessTimeCount{
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 30px;
+                /* identical to box height, or 150% */
+
+                text-align: center;
+
+                /* black */
+                color: rgba(0, 0, 0, 0.9);
+            }
+        }
+        .accessDate{
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 30px;
+            /* identical to box height, or 150% */
+
+            text-align: center;
+
+            /* black */
+            margin-left: 30px;
+            color: rgba(0, 0, 0, 0.9);
+        }
+        .filesavewrapp{
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            .filesave{
+                display: flex;
+                align-items: center;
+                border: 2px solid #6B93FF;
+                box-sizing: border-box;
+                border-radius: 24px;
+                width: 186px;
+                height: 34px;
+                padding: 8px 30px;
+                .fileSaveContext{
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 12px;
+                    line-height: 18px;
+                    /* identical to box height, or 150% */
+
+                    text-align: center;
+
+                    /* efe */
+                    width: 100px;
+                    height: 18px;
+                    color: #6B93FF;
+
+                }
+                .fileSaveIcon{
+                    font-size: 17px;
+                    margin-right: 10px;
+                }
+            }
+        }
+        
+    }
+}
