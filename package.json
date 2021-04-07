@@ -16,6 +16,7 @@
     "react-materialize": "^3.9.8",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
+    "reactjs-media": "^1.5.1",
     "swiper": "^6.5.4",
     "web-vitals": "^1.1.1"
   },
@@ -42,5 +43,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "video.js": "^7.11.4"
   }
 }

@@ -1,0 +1,206 @@
+
+
+
+.statisticaHead{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 38px;
+    /* identical to box height, or 79% */
+    margin-bottom: 0;
+    margin-top: 120px;
+
+    /* black */
+
+    color: rgba(0, 0, 0, 0.9);
+}
+.tabs{
+    background-color: transparent;
+    box-shadow: none;
+    position: relative;
+    top: -40px;
+    width: max-content;
+    left: 1100px;
+    margin: 0;
+    .indicator{
+        background-color: #5B82EB ;
+    }
+    .tab {
+        a{
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 22px;
+            line-height: 28px;
+            text-align: center;
+            color: rgba(100, 100, 100, 0.9);
+            &:hover{
+                color: #5B82EB !important;
+            }
+        }
+        a:focus.active{
+                background-color: transparent !important;
+                outline: none;
+        }
+        .active{
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 22px;
+            line-height: 28px;
+            /* identical to box height, or 117% */
+
+
+            /* blue */
+
+            color: #5B82EB !important;
+        }
+    }
+}
+.tabs-content{
+    height: 800px !important;
+    background-color: white;
+    border-radius: 15px;
+    .statisticaTabContent{
+        padding: 40px 50px 34px 50px;
+        .tabHeader{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .statisticaTabHeaderHead{
+                font-family:Poppins ;
+                font-style: normal;
+                font-weight: 800;
+                font-size: 28px;
+                line-height: 38px;
+                color: rgba(0, 0, 0, 0.8);
+                float: left;
+            }
+            .Datepickers{
+               display: flex;
+               align-items: center;
+               span{
+                   font-family: Gilroy;
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 24px;
+                    line-height: 38px;
+                    /* identical to box height, or 136% */
+
+                    text-align: center;
+
+                    color: rgba(0, 0, 0, 0.8);
+               }
+               .datepiker1{
+                   .input-field{
+                       input{
+                            font-family: Poppins;
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 22px !important;
+                            line-height: 28px;
+                            /* identical to box height, or 127% */
+
+                            text-align: center;
+
+                            color: #000000;
+
+                            opacity: 0.5;
+                       }
+                   }
+               }
+            }
+            
+            
+        }
+        .statisticaSidebar{
+            margin-left: 50px;
+            .statisticaSidebarHead{
+                font-family: Gilroy;
+                font-style: normal;
+                font-weight: 800;
+                font-size: 28px;
+                line-height: 38px;
+                /* or 136% */
+                width: 200px;
+                height: 76px;
+                margin: 10px;
+                color: rgba(0, 0, 0, 0.8);
+            }
+
+            .piechartSection{
+                background: #F7F8F9;
+                border-radius: 12px;
+                padding: 10px;
+                margin-bottom: 20px;
+                .DoughnutChart{
+                    position: relative;
+                    top:0px;
+                    left: -20%;
+                }
+                .persentageWrapper{
+                    position: relative;
+                    top:20px;
+                    left: -150%;
+                    .persentageCount{
+                    font-family: Gilroy;
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 28px;
+                    line-height: 34px;
+                    /* black */
+                    margin: 0;
+                    color: rgba(0, 0, 0, 0.9);
+                    }
+                    p{
+                        margin: 0;
+                        font-family: Poppins;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 22px;
+                        /* identical to box height, or 137% */
+
+                        text-align: center;
+
+                        /* black */
+
+                        color: rgba(0, 0, 0, 0.9);
+
+                        opacity: 0.5;
+                    }
+                }
+                .persentageUpAndDown{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    margin-top: 30px;
+                    margin-right: 20px;
+                    .persentageIcon{
+                        color: #489F09;
+                    }
+                    .persentageIconDown{
+                        color: #D80027;
+                    }
+                    span{
+                        font-family: Poppins;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 22px;
+                        /* identical to box height, or 137% */
+
+                        text-align: center;
+
+                        color: #489F09;
+
+                        opacity: 0.5;
+                    }
+                }
+                
+            }
+        }
+    }
+}

@@ -2,6 +2,10 @@
     // box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     height: 140px;
     background-color: white;
+    // position: fixed;
+    // top: 0;
+    width: 100%;
+    z-index: 100;
     .logo_wrapp{
     display: flex;
     align-items: center;

@@ -6,7 +6,10 @@ import Sidebar from './Sidebar'
 import MainNews from './MainNews'
 import SideNews from './SideNews'
 import NeediesSlide from './NeediesSlide'
-import MultiAxisLine from './Statistica'
+import Statistica from './Statistica'
+import Testimonials from './Testimonials'
+import Mediateka from './Mediateka'
+import Payments from './Payment'
 const Home = () => {
     return (
         <div className="Home">
@@ -35,7 +38,24 @@ const Home = () => {
                     <NeediesSlide/>
                 </Row>
                 <Row>
-                    <MultiAxisLine/>
+                    <Statistica/>
+                </Row>
+                <Row>
+                    <Testimonials/>
+                </Row>
+                <Row>
+                     <Slide duration="2500" triggerOnce="true">
+                        <Fade duration="2500"  triggerOnce="true">
+                            <Mediateka />
+                        </Fade>
+                    </Slide>
+                </Row>
+                <Row>
+                     <Slide duration="2500" triggerOnce="true">
+                        <Fade duration="2500"  triggerOnce="true">
+                            <Payments/>
+                        </Fade>
+                    </Slide>
                 </Row>
             </Container>
         </div>

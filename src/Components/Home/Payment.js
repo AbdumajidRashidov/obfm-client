@@ -1,0 +1,32 @@
+import React from 'react';
+import 'materialize-css'
+import { Container, Row, Col,Tabs,Tab,DatePicker, Icon,Slider,Caption,MediaBox } from 'react-materialize'
+import { Fade, Slide } from "react-awesome-reveal";
+import { Link } from 'react-router-dom';
+import payme from '../../Images/static/payme.svg';
+import click from '../../Images/static/click.svg';
+import visa from '../../Images/static/visa.svg';
+import upay from '../../Images/static/upay.svg';
+
+const Payments = () => {
+    return (
+        <Row>
+            <h1 style={{marginBottom:"80px"}}>To’lov usullari</h1>
+            <Row>
+                <Col s={3} className="payme">
+                    <Link to="/payments/payme"><img src={payme}></img></Link>
+                </Col>
+                <Col s={3} className="visa">
+                    <Link to="/payments/visa"><img src={visa}></img></Link>
+                </Col>
+                <Col s={3} className="upay">
+                    <Link to="/payments/upay"><img src={upay}></img></Link>
+                </Col>
+                <Col s={3} className="click">
+                    <Link to="/payments/click"><img src={click}></img></Link>
+                </Col>
+            </Row>
+        </Row>
+    )
+}
+export default Payments
