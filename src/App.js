@@ -9,7 +9,10 @@ import Statistica from './Components/Statistica/Statistica'
 import PressService from './Components/PressService/PressService'
 import VolunteerHelp from './Components/VolunteerHelp/VolunteerHelp'
 import Mediateka from './Components/Mediateka/Fotogallery'
-import Contact from './Components/Contact.js/Contact'
+import Contact from './Components/Contact.js/Contact' 
+import UsefulLinks from './Components/UsefulLinks'
+import Footer from './Components/Footer';
+
 const Routing = ()=>{
   const history = useHistory()
   
@@ -19,7 +22,7 @@ const Routing = ()=>{
       <Route path="/" exact>
           <Home></Home>
       </Route>
-      <Route path="/aboutfond">
+      {/* <Route path="/aboutfond">
         <AboutFond></AboutFond>
       </Route>
       <Route path="/statistica">
@@ -36,8 +39,8 @@ const Routing = ()=>{
       </Route>
       <Route path="/Contact">
         <Contact></Contact>
-      </Route>
-      </Switch>
+      </Route> */}
+    </Switch>
       
   )
 }
@@ -48,7 +51,9 @@ function App() {
       <BrowserRouter>
         <Header />
         <Navbar/>
-        <Routing/>
+        <Routing />
+        <UsefulLinks/>
+        <Footer/>
       </BrowserRouter>
     </div>
     

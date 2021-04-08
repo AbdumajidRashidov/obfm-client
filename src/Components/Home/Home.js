@@ -10,6 +10,7 @@ import Statistica from './Statistica'
 import Testimonials from './Testimonials'
 import Mediateka from './Mediateka'
 import Payments from './Payment'
+import UZMap from './UzMap'
 const Home = () => {
     return (
         <div className="Home">
@@ -51,11 +52,18 @@ const Home = () => {
                     </Slide>
                 </Row>
                 <Row>
-                     <Slide duration="2500" triggerOnce="true">
+                     <Slide duration="2500" direction="right" triggerOnce="true">
                         <Fade duration="2500"  triggerOnce="true">
                             <Payments/>
                         </Fade>
                     </Slide>
+                </Row>
+                <Row>
+                <Slide duration="2500" triggerOnce="true">
+                        <Fade duration="2500"  triggerOnce="true">
+                            <UZMap/>
+                        </Fade>
+                </Slide>
                 </Row>
             </Container>
         </div>

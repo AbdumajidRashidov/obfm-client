@@ -1,0 +1,66 @@
+.ReagionsHead{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 65px;
+    color: #000000;
+}
+.MapData{
+    background: #FFFFFF;
+    border-radius: 12px;
+    width: 740px;
+    height: 363px;
+    padding: 30px 25px;
+    .regionName{
+        font-family: Gilroy;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 32px;
+        line-height: 30px;
+        color: #6B93FF;
+        margin: 0 0 20px 0;
+    }
+    .regionImg{
+        border-radius: 10px;
+        width: 211px;
+        height: 259px;
+        object-fit: cover;
+    }
+    .RegionBoss{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 26px;
+        color: #2C3E50;
+        margin: 0;
+    }
+    .regionBossjob{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 32px;
+        color: #2C3E50;
+        opacity: 0.8;
+    }
+    .receptionTime,.email,.phone{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 32px;
+        color: rgba(0, 0, 0, 0.9);
+        margin: 15px 0;
+        span{
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 30px;
+            color: #6B93FF;
+            margin-left: 10px;
+        }
+    }
+}
