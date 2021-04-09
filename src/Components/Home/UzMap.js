@@ -77,7 +77,7 @@ const UZMap = () =>{
                 </Col>
                 <Col s={6}>
                     <div className="MapData">
-                        <Slide>
+                        
                             <h1 className="regionName">{clickedName && <span>{clickedName}</span>} </h1>
                             <Row>
                                 <Col s={4}>
@@ -91,7 +91,7 @@ const UZMap = () =>{
                                     <p className="phone">Phone:{clickedPhone && <span>{clickedPhone}</span>}</p>
                                 </Col>
                             </Row>
-                        </Slide>
+                        
                         
                         
                     </div>

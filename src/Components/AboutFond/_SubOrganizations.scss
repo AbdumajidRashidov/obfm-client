@@ -1,0 +1,28 @@
+.SubOrganizations{
+    .SubOrganizationsCard{
+        background: #FFFFFF;
+        border-radius: 12px;
+        box-shadow: none;
+        padding: 45px 0px 45px 40px;
+        display: flex;
+        align-items: center;
+        h1{
+            margin: 0 0 5px 0;
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 22px;
+            line-height: 30px;
+            color: rgba(0, 0, 0, 0.9);
+        }
+        p{
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 30px;
+            color: #2C3E50;
+            opacity: 0.8;
+        }
+    }
+}

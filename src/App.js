@@ -22,10 +22,19 @@ const Routing = ()=>{
       <Route path="/" exact>
           <Home></Home>
       </Route>
-      {/* <Route path="/aboutfond">
+      <Route path="/aboutfond">
         <AboutFond></AboutFond>
       </Route>
-      <Route path="/statistica">
+      <Route path="/uzbnews">
+          <Home></Home>
+      </Route>
+      <Route path="/worldnews">
+          <Home></Home>
+      </Route>
+      <Route path="/saxovatnews">
+          <Home></Home>
+      </Route>
+      {/* <Route path="/statistica">
         <Statistica></Statistica>
       </Route>
       <Route path="/press-service">
