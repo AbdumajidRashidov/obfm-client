@@ -8,6 +8,8 @@ import AboutFondMainBlock from './AboutFondMainBlock'
 import Management from './Management'
 import Charter from './Charter'
 import SubOrganizations from './SubOrganizations'
+import OrgStructure from './OrgStructure'
+import Regions from './Regions'
 const Routing = ()=>{
     const history = useHistory()
     
@@ -32,7 +34,11 @@ const Routing = ()=>{
             
         </Route>
         <Route path="/organization-structure">
-            
+            {/* <Slide duration="1500" triggerOnce="true">
+                <Fade duration="1500"  triggerOnce="true"> */}
+                        <Col s={9}><OrgStructure/></Col>
+                {/* </Fade>
+            </Slide> */}
         </Route>
         <Route path="/charter">
             <Slide duration="1500" triggerOnce="true">
@@ -44,7 +50,7 @@ const Routing = ()=>{
         <Route path="/resgions">
             <Slide duration="1500" triggerOnce="true">
                 <Fade duration="1500"  triggerOnce="true">
-                        <Col s={9}><Management/></Col>
+                        <Col s={9}><Regions/></Col>
                 </Fade>
             </Slide>
         </Route>

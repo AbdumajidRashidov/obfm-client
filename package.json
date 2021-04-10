@@ -20,6 +20,7 @@
     "react-scripts": "4.0.3",
     "react-social-icons": "^5.1.1",
     "reactjs-media": "^1.5.1",
+    "simple-react-lightbox": "^3.6.6",
     "styled-components": "^5.2.3",
     "swiper": "^6.5.4",
     "web-vitals": "^1.1.1"
@@ -47,9 +48,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "eslint-plugin-react-hooks": "^4.2.0",
-    "video.js": "^7.11.4"
   }
 }

@@ -1,0 +1,72 @@
+.contactContent{
+    background: #FFFFFF;
+    border-radius: 12px;
+    position: absolute;
+    width: 33%;
+    left: 953px;
+    top: 48px;
+    padding:  30px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    .contactLocation{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 30px;
+        color: rgba(0, 0, 0, 0.9);
+        margin-bottom: 35px;
+    }
+    .location,.bus,.metro,.working_hours{
+            display: flex;
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 30px;
+            color: #2C3E50;
+            margin-bottom: 36px;
+        span{
+            margin-left: 10px;
+        }
+    }
+    .contactNumbers{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 30px;
+        color: rgba(0, 0, 0, 0.9);
+        margin-bottom: 44px;
+    }
+    .Helpline{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        color: #2C3E50;
+        span{
+            font-family: Gilroy;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 32px;
+            line-height: 38px;
+            color: #2C3E50;
+            margin-left: 30px;
+        }
+    }
+    .phone,.email{
+            display: flex;
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 30px;
+            color: #2C3E50;
+            margin-bottom: 36px;
+            span{
+                color: #6B93FF;
+                margin-left: 10px;
+            }
+    }
+}

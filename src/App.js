@@ -8,7 +8,7 @@ import AboutFond from './Components/AboutFond/AboutFond'
 import Statistica from './Components/Statistica/Statistica'
 import PressService from './Components/PressService/PressService'
 import VolunteerHelp from './Components/VolunteerHelp/VolunteerHelp'
-import Mediateka from './Components/Mediateka/Fotogallery'
+import Mediateka from './Components/Mediateka/Mediateka'
 import Contact from './Components/Contact.js/Contact' 
 import UsefulLinks from './Components/UsefulLinks'
 import Footer from './Components/Footer';
@@ -42,13 +42,16 @@ const Routing = ()=>{
       </Route>
       <Route path="/volunteer-help">
         <VolunteerHelp></VolunteerHelp>
-      </Route>
+      </Route> */}
       <Route path="/mediateka">
         <Mediateka></Mediateka>
       </Route>
-      <Route path="/Contact">
+      <Route path="/fotogalereya">
+        <Mediateka></Mediateka>
+      </Route>
+      <Route path="/contact">
         <Contact></Contact>
-      </Route> */}
+      </Route>
     </Switch>
       
   )

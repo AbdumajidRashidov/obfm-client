@@ -1,0 +1,51 @@
+.OrgStructure{
+    .vasiylikKengashi{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #6B93FF;
+        border: 1px solid rgba(107, 147, 255, 0.5);
+        box-sizing: border-box;
+        border-radius: 12px;
+        p{
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 22px;
+            line-height: 30px;
+            color: #FFFFFF;
+        }
+    }
+    .taftishKomissiyasi{
+        border: 1px dashed #6B93FF;
+        border-radius: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        p{
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 30px;
+            text-align: center;
+            color: #2C3E50;
+        }
+    }
+    .ResBoshqaruvi{
+        border: 1px solid rgba(107, 147, 255, 0.5);
+        border-radius: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        p{
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 30px;
+            text-align: center;
+            color: #2C3E50;
+        }
+    }
+}

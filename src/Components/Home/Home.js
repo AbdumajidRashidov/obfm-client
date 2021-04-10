@@ -110,18 +110,10 @@ const Home = () => {
                     </Slide>
                 </Row>
                 <Row>
-                     <Slide duration="2500" direction="right" triggerOnce="true">
-                        <Fade duration="2500"  triggerOnce="true">
-                            <Payments/>
-                        </Fade>
-                    </Slide>
+                    <Payments/> 
                 </Row>
                 <Row>
-                <Slide duration="2500" triggerOnce="true">
-                        <Fade duration="2500"  triggerOnce="true">
-                            <UZMap/>
-                        </Fade>
-                </Slide>
+                    <UZMap/>
                 </Row>
               </BrowserRouter>
                 
