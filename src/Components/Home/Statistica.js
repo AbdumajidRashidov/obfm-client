@@ -7,11 +7,9 @@ import DoughnutChart from './PieChart'
 
 const Statistica = () => {
   return (
-    <Container>
+    
       <Slide duration={2000} triggerOnce="true">
         <Fade duration={2500}  triggerOnce="true">
-          <Row>
-            <Col s={12}>
               <h1 className="statisticaHead">Statistica</h1>
               <Tabs
                   className="tab-demo z-depth-1 statisticaTabs"
@@ -583,13 +581,9 @@ const Statistica = () => {
                   </div>
                   </Tab>
               </Tabs>
-            </Col>
-          </Row>
         </Fade>
         
       </Slide>
-      
-    </Container>
   )
 }
 

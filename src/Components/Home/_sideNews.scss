@@ -2,15 +2,12 @@
     .SideNewsCard{
         background: #FFFFFF;
         border-radius: 12px;
-        width: 390px;
         margin: 0 0 25px 10px;
         box-shadow: none;
         padding: 10px;
         .card-image{
             img{
                 border-radius: 10px;
-                width: 370px;
-                height: 141px;
                 object-fit: cover;
             }
         }
@@ -66,6 +63,88 @@
             /* or 130% */
             /* black */
             color: rgba(0, 0, 0, 0.9);
+        }
+    }
+}
+
+
+@media(max-width:1440px){
+    .SideNews{
+        .SideNewsCard{
+            margin: 0 0 15px 0px;
+            box-shadow: none;
+            padding: 10px;
+            .card-image{
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .card-content{
+                padding: 10px 0;
+            }
+            .categorynews{
+                font-size: 10px;
+                line-height: 16px;
+            }
+            .accessTime{
+                .accessTimeIcon{
+                    font-size: 17px;
+                }
+                .accessDate{
+                    font-size: 12px;
+                    line-height: 14px;
+                }
+            }
+            .SideNewsContex{
+                font-size: 18px;
+                line-height: 20px;
+                display: -webkit-box;
+                -webkit-line-clamp: 2;
+                -webkit-box-orient: vertical;  
+                overflow: hidden;
+            }
+        }
+    }
+}
+
+@media(max-width:1270px){
+    .SideNews{
+        .SideNewsCard{
+            margin: 0 0 10px 0px;
+            box-shadow: none;
+            padding: 10px;
+            .card-image{
+                img{
+                    width: 100%;
+                    height: 95px;
+                }
+            }
+            .card-content{
+                padding: 5px 0;
+                div{
+                    .row{
+                        margin-bottom: 5px;
+                    }
+                }
+            }
+            .categorynews{
+                font-size: 10px;
+                line-height: 16px;
+            }
+            .accessTime{
+                .accessTimeIcon{
+                    font-size: 17px;
+                }
+                .accessDate{
+                    font-size: 12px;
+                    line-height: 14px;
+                }
+            }
+            .SideNewsContex{
+                font-size: 16px;
+                line-height: 20px;
+            }
         }
     }
 }

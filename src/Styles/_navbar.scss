@@ -31,3 +31,21 @@
         }
     }
 }
+
+@media(max-width:1440px){
+    .navbar{
+        .navLinks{
+            .navLinksList{
+                .navLinksListItem{
+                    font-size: 20px;
+                    line-height: 25px;
+                    margin-top: -20px;
+                    margin-bottom: 20px;
+                    .active{
+                        color: #6B93FF;;
+                    }
+                }
+            }
+        }
+    }
+}

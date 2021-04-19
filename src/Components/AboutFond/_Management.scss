@@ -1,0 +1,75 @@
+.management{
+    .horizontal{
+        background: #F0F8FF;
+        border-radius: 12px; 
+        box-shadow: none;
+        padding: 15px;
+        .card-image{
+            img{
+                object-fit: cover !important;
+                width: 232px;
+                height: 310px;
+                border-radius: 8px;
+            }
+        }
+        .card-content{
+            padding:0px 10px 10px 20px ;
+            .tabs{
+                .tab{
+                    a{
+                        font-family: Poppins;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 24px;
+                        line-height: 30px;
+                        color: #2C3E50;
+                    }
+                    
+                }
+                
+            }
+            .RegionBoss{
+                font-family: Gilroy;
+                font-style: normal;
+                font-weight: 800;
+                font-size: 32px !important;
+                line-height: 38px;
+                color: rgba(0, 0, 0, 0.9);
+                margin-top: 60px !important;
+                margin-bottom: 15px;
+            }
+            .regionBossjob{
+                font-family: Poppins;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 26px;
+                color: rgba(0, 0, 0, 0.9);
+                margin-bottom: 43px;
+                
+            }
+            .receptionTime,.email,.phone{
+                font-family: Poppins;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 20px;
+                line-height: 32px;
+                color: rgba(0, 0, 0, 0.9);
+                margin-bottom: 10px;
+                span{
+                    opacity: 0.6;
+                    margin-right: 25px;
+                }
+            }
+            .bio{
+                font-family: Poppins;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 26px;
+                color: rgba(0, 0, 0, 0.9);
+                margin-top: 60px !important;
+            }
+        }
+    }
+}

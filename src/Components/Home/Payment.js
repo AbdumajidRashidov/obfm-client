@@ -11,7 +11,7 @@ import upay from '../../Images/static/upay.svg';
 const Payments = () => {
     return (
         <Row>
-                    <h1 style={{marginBottom:"80px"}}>To’lov usullari</h1>
+                    <h1 style={{marginBottom:"40px"}}>To’lov usullari</h1>
                     <Row>
                         <Col s={3} className="payme">
                             <Link to="/payments/payme"><img src={payme}></img></Link>

@@ -14,7 +14,7 @@ const Testimonials = () => {
                             fullscreen={false}
                             options={{
                                 duration: 500,
-                                height: 640,
+                                height: 540,
                                 indicators: true,
                                 interval: 6000
                             }}

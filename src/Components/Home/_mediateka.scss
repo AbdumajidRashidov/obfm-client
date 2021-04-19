@@ -35,7 +35,7 @@
             border-radius: 10px;
 }
 .materialboxed{
-    width: 247px;
+    width: 100%;
     height: 300px;
     border-radius: 10px !important;
 }
@@ -55,10 +55,71 @@
     align-items: center;
     justify-content: center;
     top: -20px;
-    margin-bottom: 120px;
+    margin-bottom: 0px;
 }
 .click{
     display: flex;
     align-items: center;
     justify-content: flex-end;
+}
+
+
+@media(max-width:1440px){
+    .MediatekaHead{
+        font-size: 38px;
+        line-height: 45px;
+    }
+    
+    .one___flkjsjJJNJnn_nANN8hG_YG7GY7g7BH9{
+        height: 250px !important;
+    }
+    .poster{
+        div{
+            height: 250px;
+            div{
+                width: 50px !important;
+                height: 50px !important;
+                display: flex !important;
+                align-items: center !important;
+                justify-content: center !important;
+            }
+        }
+    }
+    .materialboxed{
+        width: 100%;
+        height: 250px;
+    }
+    .reactAudio{
+        margin-bottom: 20px;
+        height: 80px !important;
+    }
+    .MuiGrid-item{
+        padding: 0 8px !important;
+    }
+    .visa{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        img{
+            width: 70%;
+        }
+    }
+    .upay{
+        img{
+            width: 70%;
+        }
+    }
+    .click{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        img{
+            width: 70%;
+        }
+    }
+    .payme{
+        img{
+            width: 70%;
+        }
+    }
 }

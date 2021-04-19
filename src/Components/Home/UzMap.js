@@ -67,7 +67,7 @@ const UZMap = () =>{
       };
     
     return(
-        <Container>
+        
             <Row>
                 <h1 className="ReagionsHead">Xududiy fondlar</h1>
                 <Col s={6}>
@@ -97,7 +97,7 @@ const UZMap = () =>{
                     </div>
                 </Col>
             </Row>
-        </Container>
+      
         
     )
 } 

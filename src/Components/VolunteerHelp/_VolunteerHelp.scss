@@ -1,0 +1,186 @@
+.CollapseNav {
+    box-shadow: none !important;
+    background-color: white;
+    margin: 0 !important;
+    .collapsible-header {
+        border: 0;
+        padding: 0;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 30px;
+        color: #6b93ff;
+    }
+    .collapsible-body {
+        .sidebarListItem {
+            a {
+                font-family: Poppins;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 30px;
+                color: #2c3e50;
+                opacity: 0.8;
+            }
+        }
+    }
+}
+.gethelpHead {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 65px;
+    color: rgba(0, 0, 0, 0.9);
+    margin: 0 0 40px 0;
+}
+.gethelpForm {
+    h2 {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 38px;
+        color: #2c3e50;
+        margin-left: 20px;
+    }
+
+    .input-field label {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        color: rgba(0, 0, 0, 0.9);
+        opacity: 0.6;
+    }
+    .input-field input[type="text"]:focus + label {
+        color: rgb(107, 147, 255);
+    }
+    .input-field input[type="email"]:focus + label {
+        color: rgb(107, 147, 255);
+    }
+    .input-field textarea:focus + label {
+        color: rgb(107, 147, 255);
+    }
+
+    /* icon prefix focus color */
+    .input-field .prefix.active {
+        color: #000;
+    }
+    input:not([type]):focus:not([readonly]),
+    input[type="text"]:not(.browser-default):focus:not([readonly]),
+    input[type="password"]:not(.browser-default):focus:not([readonly]),
+    input[type="email"]:not(.browser-default):focus:not([readonly]),
+    input[type="url"]:not(.browser-default):focus:not([readonly]),
+    input[type="time"]:not(.browser-default):focus:not([readonly]),
+    input[type="date"]:not(.browser-default):focus:not([readonly]),
+    input[type="datetime"]:not(.browser-default):focus:not([readonly]),
+    input[type="datetime-local"]:not(.browser-default):focus:not([readonly]),
+    input[type="tel"]:not(.browser-default):focus:not([readonly]),
+    input[type="number"]:not(.browser-default):focus:not([readonly]),
+    input[type="search"]:not(.browser-default):focus:not([readonly]),
+    textarea.materialize-textarea:focus:not([readonly]) {
+        box-shadow: none;
+        border: none;
+    }
+    .input-field {
+        background: #ffffff !important;
+        border: 1px solid rgba(107, 147, 255, 0.5) !important;
+        box-sizing: border-box;
+        border-radius: 12px;
+        width: 100%;
+        .textarea {
+            border: none;
+            // background: #FFFFFF !important;
+            // border: 1px solid rgba(107, 147, 255, 0.5) !important;
+            // border-radius: 12px;
+            // width: 100%;
+        }
+        .input {
+            border: none;
+        }
+        .dropdown-trigger {
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 30px;
+            color: rgba(0, 0, 0, 0.9);
+            opacity: 0.6;
+            border: none;
+            padding-top: 5px;
+
+            &:focus {
+                border: none !important;
+            }
+        }
+    }
+    .dropdown-content li > a,
+    .dropdown-content li > span {
+        color: #6b93ff;
+    }
+    .datepicker-date-display {
+        background-color: #6b93ff !important;
+    }
+    .datepicker-day-button:focus {
+        background-color: #6b93ff !important;
+    }
+    .datepicker-cancel,
+    .datepicker-clear,
+    .datepicker-today,
+    .datepicker-done {
+        color: #6b93ff;
+    }
+    .datepicker-table td.is-selected {
+        background-color: #6b93ff;
+    }
+    .chipsRow {
+        .chip {
+            background: #ffffff;
+            border: 1px solid rgba(107, 147, 255, 0.5);
+            box-sizing: border-box;
+            border-radius: 30px;
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 38px;
+            text-align: center;
+            color: #6b93ff;
+            height: 60px;
+            padding: 10px 40px;
+            cursor: pointer;
+            margin-bottom: 15px;
+        }
+        .active {
+            background: #6b93ff;
+            border: 1px solid rgba(107, 147, 255, 0.5);
+            color: #ffffff;
+        }
+    }
+    .checkbox{
+        span{
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 30px;
+            color: rgba(0, 0, 0, 0.9);
+        }
+        [type="radio"]:checked+span:after{
+            background-color: #6b93ff;
+            border-color: #6b93ff;
+        }
+    }
+    .varificationCode{
+        font-family: Ovo;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 50px;
+        line-height: 38px;
+        text-align: center;
+        color: rgba(0, 0, 0, 0.9);
+    }
+}

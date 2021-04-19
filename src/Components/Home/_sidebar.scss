@@ -8,7 +8,7 @@
             font-family: Poppins;
             font-style: normal;
             font-weight: 500;
-            font-size: 24px;
+            font-size: 22px;
             line-height: 30px;
             margin-bottom: 30px;
             height: 30px;
@@ -20,7 +20,7 @@
                 font-family: Poppins;
                 font-style: normal;
                 font-weight: 600;
-                font-size: 24px;
+                font-size: 22px;
                 line-height: 30px;
                 opacity: 1;
                 color: #5B82EB;
@@ -32,7 +32,8 @@
     p{
         background: #FFFFFF;
         border-radius: 12px;
-        padding: 15px 109px;
+        text-align: center;
+        padding: 15px;
         .getHelp{
             font-family: Gilroy;
             font-style: normal;
@@ -52,5 +53,65 @@
             color: #6B93FF;
         }
     }
+}
 
+@media(max-width:1440px){
+    .sidebar{
+        .sidebarList{
+            padding: 26px 15px 6px 15px;
+            margin-top: 0;
+            .sidebarListItem{
+                font-size: 20px;
+                line-height: 24px;
+                margin-bottom: 24px;
+                height: 24px;
+                
+                .active{
+                    font-size: 20px;
+                    line-height: 24px;
+                }
+                
+            }
+            
+        }
+        p{
+            padding: 15px;
+            .getHelp{
+                font-size: 18px;
+                line-height: 24px;
+            }
+            .volunteerHelp{
+                font-size: 18px;
+                line-height: 24px;
+            }
+        }
+    }
+}
+@media(max-width:1270px){
+    .sidebar{
+        .sidebarList{
+            padding: 16px 10px 6px 10px;
+            .sidebarListItem{
+                font-size: 18px;
+                line-height: 20px;
+                margin-bottom: 20px;
+                height: 100%;
+                .active{
+                    font-size: 18px;
+                    line-height: 20px;
+                }
+            }
+        }
+        p{
+            padding: 10px;
+            .getHelp{
+                font-size: 16px;
+                line-height: 20px;
+            }
+            .volunteerHelp{
+                font-size: 16px;
+                line-height: 20px;
+            }
+        }
+    }
 }

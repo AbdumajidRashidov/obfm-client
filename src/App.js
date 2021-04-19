@@ -36,13 +36,16 @@ const Routing = ()=>{
       </Route>
       {/* <Route path="/statistica">
         <Statistica></Statistica>
-      </Route>
+      </Route> */}
       <Route path="/press-service">
         <PressService></PressService>
       </Route>
       <Route path="/volunteer-help">
         <VolunteerHelp></VolunteerHelp>
-      </Route> */}
+      </Route>
+      <Route path="/gethelp">
+        <VolunteerHelp></VolunteerHelp>
+      </Route>
       <Route path="/mediateka">
         <Mediateka></Mediateka>
       </Route>
@@ -51,6 +54,9 @@ const Routing = ()=>{
       </Route>
       <Route path="/contact">
         <Contact></Contact>
+      </Route>
+      <Route path="/notifications" exact>
+        <PressService></PressService>
       </Route>
     </Switch>
       

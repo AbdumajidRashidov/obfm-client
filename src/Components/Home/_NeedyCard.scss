@@ -4,8 +4,6 @@
         border: 1px solid #F0F3F5;
         box-sizing: border-box;
         border-radius: 10px;
-        width: 390px;
-        height: 591px;
         box-shadow: none;
         margin-bottom: 0px;
         .card-content{
@@ -15,10 +13,8 @@
             img{
                 border-top-left-radius: 10px;
                 border-top-right-radius: 10px;
-                width: 390px;
-                height: 280px;
                 
-                // margin-bottom: 30px;
+                height: 280px;
             }
         }
         .name{
@@ -54,7 +50,6 @@
             .progress{
                 background-color: #c5d3f8 ;
                 border-radius: 15px;
-                width: 294px;
                 height: 6px;
                 margin-bottom: 10px;
             .determinate{
@@ -115,6 +110,122 @@
             .iconChevron{
                 font-size: 30px;
                 color: #6B93FF;
+            }
+        }
+    }
+}
+
+
+@media(max-width:1440px){
+    .NeediesCard{
+        .cardNeedy{
+            .card-content{
+                padding: 10px;
+            }
+            .card-image {
+                img{
+                    height: 100%;
+                }
+            }
+            .name{
+                font-size: 22px;
+                line-height: 28px;
+            }
+            .age{
+                font-size: 14px;
+                line-height: 22px;
+            }
+            .reason{
+                font-size: 16px;
+                line-height: 20px;
+                margin-top: 10px;
+                margin-bottom: 20px;
+            }
+            .amount_paid{
+                font-size: 18px;
+                line-height: 22px;
+                margin-top: 5px;
+                span{
+                    font-size: 16px;
+                    line-height: 22px;
+                }
+            }
+            .amount_tobe_paid{
+                margin-top: 5px;
+                font-size: 18px;
+                line-height: 22px;
+                margin-bottom: 22px;
+                span{
+                    font-size: 16px;
+                    line-height: 22px;
+                }
+            }
+            .volunterHelp{
+                margin-bottom: 20px;
+                span{
+                    font-size: 18px;
+                    line-height: 22px;
+                }
+                .iconChevron{
+                    font-size: 28px;
+                }
+            }
+        }
+    }
+}
+@media(max-width:1270px){
+    .NeediesCard{
+        .cardNeedy{
+            .card-content{
+                padding: 10px;
+            }
+            .card-image {
+                img{
+                    height: 150px;
+                    object-fit: cover;
+                }
+            }
+            .name{
+                font-size: 18px;
+                line-height: 20px;
+            }
+            .age{
+                font-size: 14px;
+                line-height: 20px;
+            }
+            .reason{
+                font-size: 14px;
+                margin-top: 10px;
+                margin-bottom: 15px;
+            }
+            .amount_paid{
+                font-size: 16px;
+                line-height: 20px;
+                margin-top: 5px;
+                span{
+                    font-size: 13px;
+                    line-height: 20px;
+                }
+            }
+            .amount_tobe_paid{
+                margin-top: 5px;
+                font-size: 16px;
+                line-height: 20px;
+                margin-bottom: 20px;
+                span{
+                    font-size: 13px;
+                    line-height: 20px;
+                }
+            }
+            .volunterHelp{
+                margin-bottom: 10px;
+                span{
+                    font-size: 16px;
+                    line-height: 20px;
+                }
+                .iconChevron{
+                    font-size: 25px;
+                }
             }
         }
     }

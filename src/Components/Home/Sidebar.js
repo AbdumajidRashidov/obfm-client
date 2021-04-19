@@ -15,8 +15,8 @@ const Sidebar = (props) => {
                 <li className="sidebarListItem"><Link onClick={()=>changeClassName()} className={props.isClicked ? `sidebarListItemLink ${className}` : `sidebarListItemLink`} to='/worldnews'>Jahon yangiliklari</Link></li>
                 <li className="sidebarListItem"><Link onClick={()=>changeClassName()} className={props.isClicked ? `sidebarListItemLink ${className}` : `sidebarListItemLink`} to='/saxovatnews'>Saxovat  yangiliklari</Link></li>
             </ul>
-            <p><Link  to='/volunteer-help' className="volunteerHelp">yordam bermoq</Link></p>
-            <p><Link  to='/gethelp' className="getHelp">yordam olmoq</Link></p>
+            {/* <p><Link  to='/volunteer-help' className="volunteerHelp">yordam bermoq</Link></p>
+            <p><Link  to='/gethelp' className="getHelp">yordam olmoq</Link></p> */}
             
         </div>
     )

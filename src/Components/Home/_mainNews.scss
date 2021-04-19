@@ -2,8 +2,6 @@
     .mainNewsCard{
         background: #FFFFFF;
         border-radius: 12px;
-        width: 820px;
-        height: 860px;
         padding: 15px;
         box-shadow: none;
         margin: 0;
@@ -12,8 +10,7 @@
             img{
                 border-radius: 10px !important;
                 cursor: pointer;
-                width: 791px;
-                height: 400px;
+                width: 100%;
                 object-fit: cover;
             }
             
@@ -28,14 +25,10 @@
             font-style: normal;
             font-weight: 600;
             font-size: 10px;
-            
-            /* identical to box height, or 133% */
             width: 181px;
             height: 32px;
             text-align: center;
             text-transform: uppercase;
-
-            /* blue */
             margin: 24px 15px 0 15px;
             color: #5B82EB;
 
@@ -46,11 +39,6 @@
             font-weight: normal;
             font-size: 24px;
             line-height: 32px;
-            /* or 133% */
-
-
-            /* black */
-
             color: rgba(0, 0, 0, 0.9);
             margin-bottom: 48px;
             opacity: 0.5;
@@ -61,11 +49,7 @@
             font-weight: 800;
             font-size: 32px;
             line-height: 38px;
-            /* or 119% */
             margin: 24px 0;
- 
-            /* black */
-
             color: rgba(0, 0, 0, 0.9);
         }
         .mainNewsMoreIcon{
@@ -76,7 +60,7 @@
         .mainNewsCardCloseIcon{
             position: relative;
             left: 0px;
-            top: -130px;
+            top: -200px;
         }
         .accessTime{
             display: flex;
@@ -92,11 +76,7 @@
                 font-weight: 500;
                 font-size: 20px;
                 line-height: 30px;
-                /* identical to box height, or 150% */
-
                 text-align: center;
-
-                /* black */
                 color: rgba(0, 0, 0, 0.9);
             }
         }
@@ -106,11 +86,7 @@
             font-weight: 500;
             font-size: 20px;
             line-height: 30px;
-            /* identical to box height, or 150% */
-
             text-align: center;
-
-            /* black */
             margin-left: 30px;
             color: rgba(0, 0, 0, 0.9);
         }
@@ -133,11 +109,7 @@
                     font-weight: 600;
                     font-size: 12px;
                     line-height: 18px;
-                    /* identical to box height, or 150% */
-
                     text-align: center;
-
-                    /* efe */
                     width: 100px;
                     height: 18px;
                     color: #6B93FF;
@@ -150,5 +122,130 @@
             }
         }
         
+    }
+}
+
+@media (max-width:1440px){
+    .MainNews{
+        .mainNewsCard{
+            padding: 10px;
+            .card-content{
+                padding: 0 10px !important;
+            }
+            .newsTag{
+                font-size: 10px;
+                width: 141px;
+                height: 28px;
+                margin: 14px 15px 0 5px;
+            }
+            .mainNewsContent{
+                font-size: 20px;
+                line-height: 24px;
+                margin-bottom: 28px;
+            }
+            .mainNewsTitle{
+                font-size: 24px;
+                line-height: 28px;
+                margin: 14px 0;
+            }
+            .mainNewsMoreIcon{
+                position: relative;
+                left: 10px;
+                top: -140px;
+            }
+            .mainNewsCardCloseIcon{
+                position: relative;
+                left: 0px;
+                top: -120px;
+            }
+            .accessTime{
+                .accessTimeIcon{
+                    font-size: 24px;
+                    margin-right: 12px;
+                }
+                .accessTimeCount{
+                    font-size: 16px;
+                    line-height: 20px;
+                }
+            }
+            .accessDate{
+                font-size: 16px;
+                line-height: 20px;
+            }
+            .filesavewrapp{
+                .filesave{
+                    width: 176px;
+                    height: 30px;
+                    padding: 0px 20px;
+                    .fileSaveContext{
+                        font-size: 12px;
+                        line-height: 18px;
+                        width: 100%;
+                    }
+                    .fileSaveIcon{
+                        font-size: 14px;
+                        margin-right: 10px;
+                    }
+                }
+            }
+            
+        }
+    }
+}
+@media (max-width:1270px){
+    .MainNews{
+        .mainNewsCard{
+            .newsTag{
+                margin: 14px 15px 0 5px;
+            }
+            .mainNewsContent{
+                font-size: 16px;
+                line-height: 22px;
+                margin-bottom: 24px;
+            }
+            .mainNewsTitle{
+                font-size: 22px;
+                line-height: 24px;
+                margin: 15px 0;
+            }
+            .mainNewsMoreIcon{
+                top: -130px;
+            }
+            .mainNewsCardCloseIcon{
+                top: -115px;
+                left: 10px;
+            }
+            .accessTime{
+                .accessTimeIcon{
+                    font-size: 22px;
+                    margin-right: 10px;
+                }
+                .accessTimeCount{
+                    font-size: 15px;
+                    line-height: 18px;
+                }
+            }
+            .accessDate{
+                font-size: 15px;
+                line-height: 18px;
+            }
+            .filesavewrapp{
+                .filesave{
+                    width: 156px;
+                    height: 30px;
+                    padding: 0px 15px;
+                    .fileSaveContext{
+                        font-size: 12px;
+                        line-height: 18px;
+                        width: 100%;
+                    }
+                    .fileSaveIcon{
+                        font-size: 14px;
+                        margin-right: 10px;
+                    }
+                }
+            }
+            
+        }
     }
 }

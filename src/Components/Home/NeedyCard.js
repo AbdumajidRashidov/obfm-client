@@ -19,7 +19,7 @@ const NeediesCard = () => {
                         <span className="age">20 yosh</span>
                         <p className="reason">Otasi yo’q yetim, onasi kasal balnitsada davolanmoqda.</p>
                         <ProgressBar progress={70}  />
-                        <Row>
+                        <Row style={{marginBottom:"0"}}>
                             <Col s={6}>
                                 <p className="amount_paid">470 000 <span>so'm</span></p>
                             </Col>

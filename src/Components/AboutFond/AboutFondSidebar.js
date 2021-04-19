@@ -14,8 +14,8 @@ const AboutFondSidebar = () => {
                 <li className="sidebarListItem"><Link className="sidebarListItemLink" to='/resgions'>Hududiy fondlar</Link></li>
                 <li className="sidebarListItem"><Link className="sidebarListItemLink" to='/suborganizations'>Tasarrufidagi tashkilotlar</Link></li>
             </ul>
-            <p><Link  to='/volunteer-help' className="volunteerHelp">yordam bermoq</Link></p>
-            <p><Link  to='/gethelp' className="getHelp">yordam olmoq</Link></p>
+            <p><a  href='/volunteer-help' className="volunteerHelp">yordam bermoq</a></p>
+            <p><a  href='/gethelp' className="getHelp">yordam olmoq</a></p>
             
         </div>
     )

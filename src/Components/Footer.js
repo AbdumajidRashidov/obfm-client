@@ -108,7 +108,7 @@ const Footer = ()=>{
                 <Col s={4}>
                     <div className="socials">
                         <div className="socialsWrap">
-                            <SocialIcon target="blank" url="http://instagram.com/mahallavaoilavazirligi/" bgColor="white" fgColor="#2C3E50" />
+                            <SocialIcon target="blank" url="http://instagram.com/mahallavaoilavazirligi/" bgColor="white" fgColor="#2C3E50"  />
                             <SocialIcon target="blank"  url="https://twitter.com" bgColor="white" fgColor="#2C3E50" />
                             <SocialIcon target="blank"  url="https://telegram.me/mahallavaoilainfo" bgColor="white" fgColor="#2C3E50" />
                             <SocialIcon target="blank"  url="http://facebook.com/mahallavaoilavazirligi/" bgColor="white" fgColor="#2C3E50" />

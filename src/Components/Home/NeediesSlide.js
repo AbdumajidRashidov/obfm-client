@@ -17,7 +17,6 @@ const NeedySlide = () => {
             <Slide direction="right" duration={1100}  triggerOnce="true">
                 <h1>Xayriyaga muxtojlar</h1>
                 <Swiper
-                spaceBetween={50}
                 slidesPerView={4}
                 pagination={{ clickable: true }}
                 navigation

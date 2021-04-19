@@ -18,6 +18,7 @@ import MainNewsSaxovat from './MainNewsSaxovat'
 import SideNewsWorld from './SideNewsWorld'
 import SideNewsUzb from './SideNewsUzb'
 import SideNewsSaxovat from './SideNewsSaxovat'
+import  HelpingButtons from './HelpingButtons'
 const Routing = ()=>{
     const history = useHistory()
     
@@ -88,7 +89,7 @@ const Home = () => {
                 <Row>
                     <Slide duration="2500" triggerOnce="true">
                         <Fade duration="2500"  triggerOnce="true">
-                            <Col s={3}><Sidebar isClicked="false" /></Col>
+                            <Col s={3}><Sidebar isClicked="false" /> <HelpingButtons/></Col>
                         </Fade>
                     </Slide>
                     <Routing/>

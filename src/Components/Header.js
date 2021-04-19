@@ -8,15 +8,15 @@ import uzb from '../Images/static/uzb.svg'
 const Header = () => {
     return (
         <div className="header">
-            <Container className="container">
+            <Container >
                 <Row>
-                    <Col s={9}>
+                    <Col s={8}>
                         <div className="logo_wrapp">
                             <img src={logo} />
                             <p>“Mahalla” xayriya jamoat fondi</p>
                         </div>
                     </Col>
-                    <Col s={3}>
+                    <Col s={4}>
                         <div className="weather_lang_valute">
                             <Row>
                                 <Col s={6}>

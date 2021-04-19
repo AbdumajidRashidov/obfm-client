@@ -18,7 +18,7 @@ const UsefulLinks = () => {
                 <Slide duration={1100} triggerOnce="true" className="usefulLinks">
                     <h1>Foydali havolalar</h1>
                     <Swiper
-                        spaceBetween={50}
+                        spaceBetween={20}
                         slidesPerView={4}
                         pagination={{ clickable: true }}
                         autoplay={{ delay: 2000 }}

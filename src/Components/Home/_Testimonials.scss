@@ -1,5 +1,5 @@
 .Testimonials{
-    margin-bottom: 120px;
+    margin-bottom: 0px;
     .TestimonialsSlider{
         border-radius: 15px !important;
         .slides{
@@ -60,6 +60,41 @@
             .active{
                 opacity: 1;
                 background-color: white;
+            }
+        }
+    }
+}
+@media (max-width:1440px) {
+    .Testimonials{
+        .TestimonialsSlider{
+            .slides{
+                li{
+                    .caption{
+                        width: 517px;
+                        height: 180px;
+                        left: 5%;
+                        h3{
+                            font-size: 28px;
+                            line-height: 40px;
+                        }
+                        h5{
+                            font-size: 20px;
+                            line-height: 28px;
+                        }
+                    }
+                    
+                }
+                .maskTestimonials{
+                        height: 640px;
+                }
+            }
+            .indicators{
+                top:80%;
+                left: -80%;
+                .indicator-item{
+                    height: 10px;
+                    width: 10px;
+                }
             }
         }
     }
