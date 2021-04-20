@@ -115,3 +115,32 @@
         }
     }
 }
+@media(max-width:992px){
+    .sidebar{
+        display: none;
+        .sidebarList{
+            padding: 16px 10px 6px 10px;
+            .sidebarListItem{
+                font-size: 18px;
+                line-height: 20px;
+                margin-bottom: 20px;
+                height: 100%;
+                .active{
+                    font-size: 18px;
+                    line-height: 20px;
+                }
+            }
+        }
+        p{
+            padding: 10px;
+            .getHelp{
+                font-size: 16px;
+                line-height: 20px;
+            }
+            .volunteerHelp{
+                font-size: 16px;
+                line-height: 20px;
+            }
+        }
+    }
+}

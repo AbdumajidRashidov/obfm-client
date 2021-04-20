@@ -105,3 +105,40 @@
         }
     }
 }
+
+
+@media (max-width:1270px) {
+    .MapData{
+        height: 100%;
+        width: 100%;
+        padding: 20px 10px;
+        .regionName{
+            font-size: 22px;
+            line-height: 20px;
+            margin: 0 0 20px 0;
+        }
+        .regionImg{
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .RegionBoss{
+            font-size: 20px;
+            line-height: 20px;
+        }
+        .regionBossjob{
+            font-size: 18px;
+            line-height: 22px;
+        }
+        .receptionTime,.email,.phone{
+            font-size: 14px;
+            line-height: 22px;
+            margin: 10px 0;
+            span{
+                font-size: 14px;
+                line-height: 20px;
+                margin-left: 5px;
+            }
+        }
+    }
+}

@@ -12,7 +12,7 @@ const Footer = ()=>{
         <div className="footer">
             <Container>
             <Row>
-                <Col s={3}>
+                <Col s={12} l={3} m={6}>
                     <div className="footerCol">
                         <ul className="footerList">
                             <li className="footerListItem">
@@ -30,7 +30,7 @@ const Footer = ()=>{
                         </ul>
                     </div>
                 </Col>
-                <Col s={3}>
+                <Col s={12} l={3} m={6}>
                     <div className="footerCol">
                         <ul className="footerList">
                             <li className="footerListItemHead">
@@ -48,7 +48,7 @@ const Footer = ()=>{
                         </ul>
                     </div>
                 </Col>
-                <Col s={3}>
+                <Col s={12} l={3} m={6}>
                     <div className="footerCol">
                         <ul className="footerList">
                             <li className="footerListItemHead">
@@ -69,7 +69,7 @@ const Footer = ()=>{
                         </ul>
                     </div>
                 </Col>
-                <Col s={3}>
+                <Col s={12} l={3} m={6}>
                     <div className="footerCol">
                         <ul className="footerList">
                             <li className="footerListItemHead">
@@ -98,14 +98,14 @@ const Footer = ()=>{
                 </Col>
             </Row>
             <Row className="footerBottom">
-                <Col s={4}>
+                <Col s={12} l={4}>
                     <a href="https://i-solutions.uz" target="blank"><img src={logoIsolutions}/></a>
                 </Col>
-                <Col s={4} className="copyWrap">
+                <Col s={12} l={4} className="copyWrap">
                     <p className="copyMahalla">Mahalla xayriya jamoat fondi</p>
                     <p className="copy"><span>&copy;</span> 2021 “I solutions” Barcha xuquqlar himoyalangan.</p>
                 </Col>
-                <Col s={4}>
+                <Col s={12} l={4}>
                     <div className="socials">
                         <div className="socialsWrap">
                             <SocialIcon target="blank" url="http://instagram.com/mahallavaoilavazirligi/" bgColor="white" fgColor="#2C3E50"  />

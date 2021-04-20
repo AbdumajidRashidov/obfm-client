@@ -28,13 +28,13 @@ const Routing = ()=>{
         <Route path="/" exact>
                 <Slide duration="2000" triggerOnce="true">
                     <Fade duration="2000"  triggerOnce="true">
-                        <Col s={6}><MainNewsFond/></Col>
+                        <Col s={12} m={12} l={6} ><MainNewsFond/></Col>
                     </Fade>
                 </Slide>
 
                 <Slide duration="1500" triggerOnce="true">
                     <Fade duration="1500"  triggerOnce="true">
-                        <Col s={3}><SideNewsFond /></Col>
+                        <Col s={12} m={12} l={3}><SideNewsFond /></Col>
                     </Fade>
                 </Slide>
         </Route>
@@ -89,7 +89,7 @@ const Home = () => {
                 <Row>
                     <Slide duration="2500" triggerOnce="true">
                         <Fade duration="2500"  triggerOnce="true">
-                            <Col s={3}><Sidebar isClicked="false" /> <HelpingButtons/></Col>
+                            <Col s={12} m={6} l={3}><Sidebar isClicked="false" /> <HelpingButtons/></Col>
                         </Fade>
                     </Slide>
                     <Routing/>

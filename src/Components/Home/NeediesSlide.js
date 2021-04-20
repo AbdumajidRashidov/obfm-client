@@ -17,9 +17,20 @@ const NeedySlide = () => {
             <Slide direction="right" duration={1100}  triggerOnce="true">
                 <h1>Xayriyaga muxtojlar</h1>
                 <Swiper
-                slidesPerView={4}
                 pagination={{ clickable: true }}
                 navigation
+                slidesPerView={1}
+                breakpoints={{
+                    640: {
+                        slidesPerView:2
+                      },
+                    768: {
+                        slidesPerView:3
+                      },
+                    1024: {
+                        slidesPerView:4
+                    },
+                }}
             >
                 <SwiperSlide >
                     <Fade direction="up" duration={1100}>

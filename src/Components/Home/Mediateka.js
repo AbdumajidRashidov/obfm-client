@@ -13,14 +13,14 @@ const Mediateka = () => {
             <Col s={12}>
                 <h1 className="MediatekaHead">Mediateka</h1>
             </Col>
-            <Col s={4}>
+            <Col s={12} l={4} style={{marginBottom:"20px"}}>
                 <ReactVideo
                     src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
                     poster={poster}
                     className="ReactVideo"
                 />
             </Col>
-            <Col s={4}>
+            <Col s={12} l={4}>
                     <Row>
                         <Col s={6}>
                             <MediaBox
@@ -54,7 +54,7 @@ const Mediateka = () => {
                         </Col>
                     </Row>
                 </Col>
-            <Col s={4}>
+            <Col s={12} l={4}>
                         <ReactAudio
                             src="https://github.com/rafaelreis-hotmart/Audio-Sample-files/raw/master/sample.mp3"
                         className="reactAudio"

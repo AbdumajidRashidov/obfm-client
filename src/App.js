@@ -12,7 +12,7 @@ import Mediateka from './Components/Mediateka/Mediateka'
 import Contact from './Components/Contact.js/Contact' 
 import UsefulLinks from './Components/UsefulLinks'
 import Footer from './Components/Footer';
-
+import HeaderMobile from './Components/HeaderMobile'
 const Routing = ()=>{
   const history = useHistory()
   
@@ -67,7 +67,9 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <Header />
+      
+        <Header/>
+        <HeaderMobile/>
         <Navbar/>
         <Routing />
         <UsefulLinks/>

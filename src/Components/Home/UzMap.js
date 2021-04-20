@@ -70,12 +70,12 @@ const UZMap = () =>{
         
             <Row>
                 <h1 className="ReagionsHead">Xududiy fondlar</h1>
-                <Col s={6}>
+                <Col s={12} l={6} style={{marginBottom:"20px"}}>
                     <Map>
                         <VectorMap {...uzb} layerProps={layerProps}/>
                     </Map>
                 </Col>
-                <Col s={6}>
+                <Col s={12} l={6}>
                     <div className="MapData">
                         
                             <h1 className="regionName">{clickedName && <span>{clickedName}</span>} </h1>

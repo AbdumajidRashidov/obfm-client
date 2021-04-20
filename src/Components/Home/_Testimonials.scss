@@ -99,3 +99,41 @@
         }
     }
 }
+
+@media (max-width:1270px) {
+    .Testimonials{
+        .TestimonialsSlider{
+            height: 450px !important;
+            .slides{
+                height: 450px;
+                li{
+                    .caption{
+                        width: 517px;
+                        height: 150px;
+                        left: 5%;
+                        h3{
+                            font-size: 28px;
+                            line-height: 40px;
+                        }
+                        h5{
+                            font-size: 20px;
+                            line-height: 28px;
+                        }
+                    }
+                    
+                }
+                .maskTestimonials{
+                        height: 450px;
+                }
+            }
+            .indicators{
+                top:65%;
+                left: -80%;
+                .indicator-item{
+                    height: 10px;
+                    width: 10px;
+                }
+            }
+        }
+    }
+}

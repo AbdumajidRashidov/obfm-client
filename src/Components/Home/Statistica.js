@@ -217,11 +217,11 @@ const Statistica = () => {
                         </div>
                       </div>
                       <Row>
-                        <Col s={9}>
+                        <Col s={12} l={9}>
                             <MultiAxisLine/>
                         </Col>
                         
-                        <Col s={3} >
+                        <Col s={12} l={3} >
                           <div className="statisticaSidebar">
                             <h1 className="statisticaSidebarHead">Xayriya ko’makchilari</h1>
                             <div className="piechartSection">
@@ -300,8 +300,8 @@ const Statistica = () => {
                   
                   </Tab>
                   <Tab
-                    
-                    className=""
+                    active
+                    className="statisticaTab"
                     options={{
                       duration: 300,
                       onShow: null,
@@ -309,8 +309,8 @@ const Statistica = () => {
                       swipeable: false
                     }}
                     title="Yordamga muhtojlar"
-                  >
-                    <div className="statisticaTabContent">
+                >
+                  <div className="statisticaTabContent">
                     <Row>
                       <div className="tabHeader" >
                         <h2 className="statisticaTabHeaderHead">Platfomaga kelib tushgan pullar</h2>
@@ -499,11 +499,11 @@ const Statistica = () => {
                         </div>
                       </div>
                       <Row>
-                        <Col s={9}>
+                        <Col s={12} l={9}>
                             <MultiAxisLine/>
                         </Col>
                         
-                        <Col s={3} >
+                        <Col s={12} l={3} >
                           <div className="statisticaSidebar">
                             <h1 className="statisticaSidebarHead">Xayriya ko’makchilari</h1>
                             <div className="piechartSection">
@@ -579,6 +579,7 @@ const Statistica = () => {
                       </Row>
                     </Row>
                   </div>
+                  
                   </Tab>
               </Tabs>
         </Fade>

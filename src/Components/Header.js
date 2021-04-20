@@ -7,16 +7,16 @@ import uzb from '../Images/static/uzb.svg'
 
 const Header = () => {
     return (
-        <div className="header">
+        <div className="header headerXl">
             <Container >
                 <Row>
-                    <Col s={8}>
+                    <Col s={8} m={7} l={8}>
                         <div className="logo_wrapp">
                             <img src={logo} />
                             <p>“Mahalla” xayriya jamoat fondi</p>
                         </div>
                     </Col>
-                    <Col s={4}>
+                    <Col s={4} m={5} l={4}  >
                         <div className="weather_lang_valute">
                             <Row>
                                 <Col s={6}>
