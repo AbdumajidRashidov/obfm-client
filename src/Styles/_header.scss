@@ -156,6 +156,51 @@
     top: 0;
     z-index: 1;
     display: none;
+    .sidenav{
+       .lang{
+           .dropdown{
+               a{
+                   line-height: 48px !important;
+               }
+           }
+       }
+       p{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+        color: #000000;
+        .usd_balance{
+            color: red;
+            position: relative;
+            top:-5px;
+            left: 5px;
+        }
+        }
+        .collapsible{
+            li.active{
+                font-family: Poppins;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 24px;
+                color: #6B93FF;
+                background-color: #FFFFFF;
+            }
+        }
+        .collapsible-header{
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 24px;
+            margin-bottom: 20px;
+            &:hover{
+                background-color: #FFFFFF;
+            }
+        }
+    }
 }
 @media(max-width:1270px){
     .header{

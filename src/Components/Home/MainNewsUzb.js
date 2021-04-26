@@ -8,7 +8,7 @@ const MainNews = () => {
         <div className="MainNews">
             <Row>
                 <Col
-                    s={12}
+                    s={12} 
                 >
                     <Card
                         
@@ -24,7 +24,7 @@ const MainNews = () => {
                                 closeIcon={<Icon className="close">close</Icon>}
                                 options={null}
                                 >
-                                    O'zbekiston yangiliklari
+                                    O'zbekiston 
                             </Chip>
                             </>
                     }

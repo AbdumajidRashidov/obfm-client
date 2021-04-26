@@ -8,7 +8,7 @@ const SubOrganizations = () => {
     return (
         <div className="SubOrganizations">
             <Row>
-                <Col s={6}>
+                <Col s={12} m={6}>
                     <Card
                     className="SubOrganizationsCard"
                     closeIcon={<Icon>close</Icon>}
@@ -20,7 +20,7 @@ const SubOrganizations = () => {
                         <p>Ular pul mablag‘lari, kundalik iste’mol tovarlari, dori vositalari va boshqa mahsulotlar bilan ta’minlanadi.</p>
                     </Card>
                 </Col>
-                <Col s={6}>
+                <Col s={12} m={6}>
                     <Card
                     className="SubOrganizationsCard"
                     closeIcon={<Icon>close</Icon>}
@@ -32,7 +32,7 @@ const SubOrganizations = () => {
                         <p>Ular pul mablag‘lari, kundalik iste’mol tovarlari, dori vositalari va boshqa mahsulotlar bilan ta’minlanadi.</p>
                     </Card>
                 </Col>
-                <Col s={6}>
+                <Col s={12} m={6}>
                     <Card
                     className="SubOrganizationsCard"
                     closeIcon={<Icon>close</Icon>}
@@ -44,7 +44,7 @@ const SubOrganizations = () => {
                         <p>Ular pul mablag‘lari, kundalik iste’mol tovarlari, dori vositalari va boshqa mahsulotlar bilan ta’minlanadi.</p>
                     </Card>
                 </Col>
-                <Col s={6}>
+                <Col s={12} m={6}>
                     <Card
                     className="SubOrganizationsCard"
                     closeIcon={<Icon>close</Icon>}

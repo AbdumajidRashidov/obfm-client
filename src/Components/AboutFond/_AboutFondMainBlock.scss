@@ -27,3 +27,24 @@
         left: 0 !important;
     }
 }
+
+@media(max-width:540px){
+    .aboutFondMainBlock{
+        padding: 16px;
+        h1{
+            font-size: 22px;
+            line-height: 28px;
+            margin: 0 0 14px 0;
+        }
+        p{
+            font-size: 18px;
+            line-height: 22px;
+        }
+    }
+    .management{
+        .tabManagement{
+            top:0 !important;
+            left: 0 !important;
+        }
+    }
+}

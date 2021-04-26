@@ -7,7 +7,8 @@ import { Col,Row,Icon,Modal,Button } from 'react-materialize';
 const Notifications =()=>{
     return(
         <Row>
-            <Col s={6}>
+            <h1 style={{margin:"0 0 20px 0",fontSize:"35px"}}>E'lonlar</h1>
+            <Col s={12} l={6}>
             <Modal
                 actions={[
                     <Button flat modal="close" node="button">Close</Button>
@@ -54,7 +55,7 @@ const Notifications =()=>{
             </Modal>
                 
             </Col>
-            <Col s={6}>
+            <Col s={12} l={6}>
             <Modal
                 actions={[
                     <Button flat modal="close" node="button">Close</Button>
@@ -101,7 +102,7 @@ const Notifications =()=>{
             </Modal>
                 
             </Col>
-            <Col s={6}>
+            <Col s={12} l={6}>
             <Modal
                 actions={[
                     <Button flat modal="close" node="button">Close</Button>
@@ -148,7 +149,7 @@ const Notifications =()=>{
             </Modal>
                 
             </Col>
-            <Col s={6}>
+            <Col s={12} l={6}>
             <Modal
                 actions={[
                     <Button flat modal="close" node="button">Close</Button>

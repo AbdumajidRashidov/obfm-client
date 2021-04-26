@@ -386,3 +386,104 @@
         }
     }
 }
+
+
+@media (max-width:576px){
+    .statisticaHead{
+        font-size: 30px;
+        margin-bottom: 100px;
+        margin-top: 0px;
+    }
+    .tabs{
+        top: 70px;
+        .tab {
+            a{
+                font-size: 14px;
+                line-height: 18px;
+            }
+            .active{
+                font-size: 14px;
+                line-height: 18px;
+            }
+        }
+    }
+    .tabs-content{
+        height: 850px !important;
+        .statisticaTabContent{
+            padding: 0px 10px;
+            .tabHeader{
+                display: flex;
+                flex-direction: column;
+                .statisticaTabHeaderHead{
+                    font-size: 18px;
+                    line-height: 18px;
+                    margin-bottom: 0;
+                    text-align: center;
+                }
+                .Datepickers{
+                    text-align: center;
+                   span{
+                        font-size: 16px;
+                        line-height: 20px;
+                   }
+                   .datepiker1{
+                       .input-field{
+                           input{
+                                font-size: 14px !important;
+                                line-height: 18px;
+                           }
+                       }
+                   }
+                }
+                
+                
+            }
+            .statisticaSidebar{
+                margin-left: 0px;
+                .statisticaSidebarHead{
+                    font-size: 18px;
+                    line-height: 20px;
+                    width: 100%;
+                    height: 100%;
+                    margin: 20px 10px 20px 10px;
+                }
+    
+                .piechartSection{
+                    padding: 5px;
+                    margin-bottom: 15px;
+                    .DoughnutChart{
+                        position: relative;
+                        top:10px;
+                        left: -20%;
+                    }
+                    .persentageWrapper{
+                        top:20px;
+                        left: -150%;
+                        .persentageCount{
+                        font-size: 26px;
+                        line-height: 30px;
+                        }
+                        p{
+                            font-size: 16px;
+                            line-height: 22px;
+                        }
+                    }
+                    .persentageUpAndDown{
+                        margin-top: 30px;
+                        margin-right: 20px;
+                        .persentageIcon{
+                            color: #489F09;
+                        }
+                        .persentageIconDown{
+                            color: #D80027;
+                        }
+                        span{
+                            font-size: 16px;
+                            line-height: 22px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

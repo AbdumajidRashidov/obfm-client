@@ -24,7 +24,7 @@ const Footer = ()=>{
                             <li className="footerListItem">
                                 <Link to='/getHelp'><Button className="getHelpbutton">Murojaat qilmoq</Button></Link>
                             </li>
-                            <li className="footerListItem">
+                            <li className="footerListItem" style={{height:"0"}}>
                                 <Link to='/sitemap'><Button className="sitemapbutton">Sayt xaritasi</Button></Link>
                             </li>
                         </ul>
@@ -98,8 +98,8 @@ const Footer = ()=>{
                 </Col>
             </Row>
             <Row className="footerBottom">
-                <Col s={12} l={4}>
-                    <a href="https://i-solutions.uz" target="blank"><img src={logoIsolutions}/></a>
+                <Col s={12} l={4} className="imgIsolutions">
+                    <a  href="https://i-solutions.uz" target="blank"><img src={logoIsolutions}/></a>
                 </Col>
                 <Col s={12} l={4} className="copyWrap">
                     <p className="copyMahalla">Mahalla xayriya jamoat fondi</p>

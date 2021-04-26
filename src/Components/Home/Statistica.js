@@ -508,12 +508,12 @@ const Statistica = () => {
                             <h1 className="statisticaSidebarHead">Xayriya ko’makchilari</h1>
                             <div className="piechartSection">
                               <Row>
-                                <Col s={7}>
+                                <Col s={8} m={7}>
                                   <div className="DoughnutChart">
                                       <DoughnutChart />
                                   </div>  
                                 </Col>
-                                <Col s={3}>
+                                <Col s={2}  m={3}>
                                   <div className="persentageWrapper">
                                     <span className="persentageCount">69</span><span className="persentageSymbol">%</span>
                                     <p>Erkaklar</p>

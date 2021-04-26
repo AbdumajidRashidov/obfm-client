@@ -249,3 +249,57 @@
         }
     }
 }
+
+@media (max-width:576px){
+    .MainNews{
+        .mainNewsCard{
+            .mainNewsContent{
+                font-size: 14px;
+                line-height: 20px;
+                margin-bottom: 20px;
+            }
+            .mainNewsTitle{
+                font-size: 18px;
+                line-height: 20px;
+                margin: 15px 0;
+            }
+            .mainNewsMoreIcon{
+                top: -130px;
+            }
+            .mainNewsCardCloseIcon{
+                top: -125px;
+                left: 10px;
+            }
+            .accessTime{
+                .accessTimeIcon{
+                    font-size: 20px;
+                    margin-right: 5px;
+                    
+                }
+                .accessTimeCount{
+                    font-size: 13px;
+                }
+            }
+            .accessDate{
+                font-size: 13px;
+            }
+            .filesavewrapp{
+                .filesave{
+                    width: 156px;
+                    height: 30px;
+                    padding: 0px 10px;
+                    .fileSaveContext{
+                        font-size: 10px;
+                        line-height: 18px;
+                        width: 100%;
+                    }
+                    .fileSaveIcon{
+                        font-size: 14px;
+                        margin-right: 5px;
+                    }
+                }
+            }
+            
+        }
+    }
+}

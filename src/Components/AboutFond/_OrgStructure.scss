@@ -49,3 +49,73 @@
         }
     }
 }
+
+@media(max-width:1440px){
+    .OrgStructure{
+        .vasiylikKengashi{
+            p{
+                font-size: 18px;
+                line-height: 30px;
+            }
+        }
+        .taftishKomissiyasi{
+            p{
+                font-size: 18px;
+                line-height: 30px;
+            }
+        }
+        .ResBoshqaruvi{
+            p{
+                font-size: 18px;
+                line-height: 30px;
+            }
+        }
+    }
+}
+
+@media(max-width:992px){
+    .OrgStructure{
+        .vasiylikKengashi{
+            p{
+                font-size: 16px;
+                line-height: 25px;
+            }
+        }
+        .taftishKomissiyasi{
+            p{
+                font-size: 16px;
+                line-height: 25px;
+            }
+        }
+        .ResBoshqaruvi{
+            p{
+                font-size: 16px;
+                line-height: 25px;
+            }
+        }
+    }
+}
+@media(max-width:768px){
+    .OrgStructure{
+        .vasiylikKengashi{
+            p{
+                font-size: 14px;
+                line-height: 20px;
+            }
+        }
+        .taftishKomissiyasi{
+            margin-top: 20px;
+            p{
+                font-size: 14px;
+                line-height: 20px;
+            }
+        }
+        .ResBoshqaruvi{
+            margin-top: 20px;
+            p{
+                font-size: 14px;
+                line-height: 20px;
+            }
+        }
+    }
+}

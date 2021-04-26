@@ -19,14 +19,14 @@ const Routing = ()=>{
         <Route path="/aboutfond" exact>
             <Slide duration="1500" triggerOnce="true">
                 <Fade duration="1500"  triggerOnce="true">
-                        <Col s={9}><AboutFondMainBlock/></Col>
+                        <Col s={12} l={9}><AboutFondMainBlock/></Col>
                 </Fade>
             </Slide>
         </Route>
-        <Route path="/management">
+        <Route path="/management" >
             <Slide duration="1500" triggerOnce="true">
                 <Fade duration="1500"  triggerOnce="true">
-                        <Col s={9}><Management/></Col>
+                        <Col s={12} l={9}><Management/></Col>
                 </Fade>
             </Slide>
         </Route>
@@ -36,28 +36,28 @@ const Routing = ()=>{
         <Route path="/organization-structure">
             {/* <Slide duration="1500" triggerOnce="true">
                 <Fade duration="1500"  triggerOnce="true"> */}
-                        <Col s={9}><OrgStructure/></Col>
+                        <Col s={12} l={9}><OrgStructure/></Col>
                 {/* </Fade>
             </Slide> */}
         </Route>
         <Route path="/charter">
             <Slide duration="1500" triggerOnce="true">
                 <Fade duration="1500"  triggerOnce="true">
-                        <Col s={9}><Charter/></Col>
+                        <Col s={12} l={9}><Charter/></Col>
                 </Fade>
             </Slide>
         </Route>
         <Route path="/resgions">
             <Slide duration="1500" triggerOnce="true">
                 <Fade duration="1500"  triggerOnce="true">
-                        <Col s={9}><Regions/></Col>
+                        <Col s={12} l={9}><Regions/></Col>
                 </Fade>
             </Slide>
         </Route>
         <Route path="/suborganizations">
             <Slide duration="1500" triggerOnce="true">
                 <Fade duration="1500"  triggerOnce="true">
-                        <Col s={9}><SubOrganizations/></Col>
+                        <Col s={12} l={9}><SubOrganizations/></Col>
                 </Fade>
             </Slide>
         </Route>

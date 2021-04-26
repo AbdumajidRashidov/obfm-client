@@ -35,3 +35,74 @@
         }
     }
 }
+@media(max-width:1440px){
+    .Regions{
+        .RegionsCard{
+            padding: 10px;
+            height: 380px;
+            h1{
+                font-size: 20px;
+                line-height: 28px;
+                margin: 15px 0;
+            }
+            .card-content{
+                padding: 5px;
+            }
+            .cardContent{
+                p{
+                    margin-bottom: 10px;
+                    font-size: 14px;
+                    line-height: 25px;
+                    span{
+                        margin-left: 5px;
+                        width: 90%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:1200px){
+    .Regions{
+        .RegionsCard{
+            padding: 10px;
+            height: 440px;
+            h1{
+                font-size: 20px;
+                line-height: 28px;
+                margin: 15px 0;
+            }
+            .card-content{
+                padding: 5px;
+            }
+            .cardContent{
+                p{
+                    margin-bottom: 10px;
+                    font-size: 14px;
+                    line-height: 25px;
+                    span{
+                        margin-left: 5px;
+                        width: 90%;
+                    }
+                }
+            }
+        }
+    }
+}
+@media(max-width:768px){
+    .Regions{
+        .RegionsCard{
+            padding: 10px;
+            height: 400px;
+        }
+    }
+}
+@media(max-width:600px){
+    .Regions{
+        .RegionsCard{
+            padding: 10px;
+            height: 450px;
+        }
+    }
+}

@@ -14,21 +14,21 @@ const Routing = ()=>{
         <Route path="/press-service" exact>
             <Slide duration="1500" triggerOnce="true">
                 <Fade duration="1500"  triggerOnce="true">
-                        <Col s={9}><Notifications/></Col>
+                        <Col s={12} l={9}><Notifications/></Col>
                 </Fade>
             </Slide>
         </Route>
         <Route path="/contact-press-service">
             <Slide duration="1500" triggerOnce="true">
                 <Fade duration="1500"  triggerOnce="true">
-                        {/* <Col s={9}><PressServiceSidebar/></Col> */}
+                        {/* <Col s={12} m={9}><PressServiceSidebar/></Col> */}
                 </Fade>
             </Slide>
         </Route>
         <Route path="/management-statements">
             <Slide duration="1500" triggerOnce="true">
                 <Fade duration="1500"  triggerOnce="true">
-                        {/* <Col s={9}><PressServiceSidebar/></Col> */}
+                        {/* <Col s={12} m={9}><PressServiceSidebar/></Col> */}
                 </Fade>
             </Slide>
         </Route>

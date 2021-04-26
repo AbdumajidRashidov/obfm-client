@@ -24,7 +24,7 @@ const MainNews = () => {
                                 closeIcon={<Icon className="close">close</Icon>}
                                 options={null}
                                 >
-                                    Saxovat yangiliklari
+                                    Saxovat 
                             </Chip>
                             </>
                     }

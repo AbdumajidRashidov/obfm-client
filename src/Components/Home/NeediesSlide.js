@@ -31,6 +31,7 @@ const NeedySlide = () => {
                         slidesPerView:4
                     },
                 }}
+                slidesPerView={1}
             >
                 <SwiperSlide >
                     <Fade direction="up" duration={1100}>

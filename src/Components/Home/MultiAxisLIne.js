@@ -6,7 +6,7 @@ const data = {
   datasets: [
     {
       label: 'Naqd pul orqali',
-      data: [7000000, 12000000, 10000000, 7300000,15000000,10000000],
+      data: [70, 120, 100, 730,150,100],
       fill: false,
       backgroundColor: '#79eb22',
       borderColor: '#79eb22',
@@ -14,7 +14,7 @@ const data = {
     },
     {
       label: 'Karta orqali',
-      data: [1000000, 1000000, 8000000, 1300000,8000000,10000000],
+      data: [100, 100, 800, 130,80,1000],
       fill: false,
       backgroundColor: '#5B82EB',
       borderColor: '#5B82EB',

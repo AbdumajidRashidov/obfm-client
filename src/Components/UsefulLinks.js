@@ -19,6 +19,7 @@ const UsefulLinks = () => {
                     <h1>Foydali havolalar</h1>
                     <Swiper
                         spaceBetween={20}
+                        slidesPerView={1}
                         breakpoints={{
                             640: {
                                 slidesPerView:1

@@ -11,7 +11,7 @@ const SideNewsUzb = () => {
         <div className="SideNews">
             <Row>
                 <Col
-                    s={12}
+                    s={12}  className="colmobile"
                 >
                     <Card
                         className="SideNewsCard"

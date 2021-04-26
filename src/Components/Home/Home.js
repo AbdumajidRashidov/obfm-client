@@ -41,39 +41,39 @@ const Routing = ()=>{
         <Route path="/uzbnews">
                 <Slide duration="2000" triggerOnce="true">
                     <Fade duration="2000"  triggerOnce="true">
-                        <Col s={6}><MainNewsUzb/></Col>
+                        <Col s={12} m={12} l={6} ><MainNewsUzb/></Col>
                     </Fade>
                 </Slide>
 
                 <Slide duration="1500" triggerOnce="true">
                     <Fade duration="1500"  triggerOnce="true">
-                        <Col s={3}><SideNewsUzb /></Col>
+                        <Col s={12} m={12} l={3} ><SideNewsUzb /></Col>
                     </Fade>
                 </Slide>
         </Route>
         <Route path="/worldnews">
                 <Slide duration="2000" triggerOnce="true">
                     <Fade duration="2000"  triggerOnce="true">
-                        <Col s={6}><MainNewsWorld/></Col>
+                        <Col s={12} m={12} l={6} ><MainNewsWorld/></Col>
                     </Fade>
                 </Slide>
 
                 <Slide duration="1500" triggerOnce="true">
                     <Fade duration="1500"  triggerOnce="true">
-                        <Col s={3}><SideNewsWorld /></Col>
+                        <Col s={12} m={12} l={3}><SideNewsWorld /></Col>
                     </Fade>
                 </Slide>
         </Route>
         <Route path="/saxovatnews">
                 <Slide duration="2000" triggerOnce="true">
                     <Fade duration="2000"  triggerOnce="true">
-                        <Col s={6}><MainNewsSaxovat/></Col>
+                        <Col s={12} m={12} l={6} ><MainNewsSaxovat/></Col>
                     </Fade>
                 </Slide>
 
                 <Slide duration="1500" triggerOnce="true">
                     <Fade duration="1500"  triggerOnce="true">
-                        <Col s={3}><SideNewsSaxovat /></Col>
+                        <Col s={12} m={12} l={3}><SideNewsSaxovat /></Col>
                     </Fade>
                 </Slide>
         </Route>

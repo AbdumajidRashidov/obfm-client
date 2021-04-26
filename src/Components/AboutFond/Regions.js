@@ -20,7 +20,7 @@ const Regions = () => {
     return (
         <div className="Regions">
             <Row>
-                <Col s={4}>
+                <Col  s={12} m={6} l={6} xl={4}>
                     <Card
                     className="RegionsCard"
                     closeIcon={<Icon>close</Icon>}
@@ -36,7 +36,7 @@ const Regions = () => {
                         
                     </Card>
                 </Col>
-                <Col s={4}>
+                <Col  s={12} m={6} l={6} xl={4}>
                     <Card
                     className="RegionsCard"
                     closeIcon={<Icon>close</Icon>}
@@ -51,7 +51,7 @@ const Regions = () => {
                         </div>
                     </Card>
                 </Col>
-                <Col s={4}>
+                <Col  s={12} m={6} l={6} xl={4}>
                     <Card
                     className="RegionsCard"
                     closeIcon={<Icon>close</Icon>}
@@ -66,7 +66,7 @@ const Regions = () => {
                         </div>
                     </Card>
                 </Col>
-                <Col s={4}>
+                <Col  s={12} m={6} l={6} xl={4}>
                     <Card
                     className="RegionsCard"
                     closeIcon={<Icon>close</Icon>}
@@ -81,7 +81,7 @@ const Regions = () => {
                         </div>  
                     </Card>
                 </Col>
-                <Col s={4}>
+                <Col  s={12} m={6} l={6} xl={4}>
                     <Card
                     className="RegionsCard"
                     closeIcon={<Icon>close</Icon>}
@@ -96,7 +96,7 @@ const Regions = () => {
                         </div>
                     </Card>
                 </Col>
-                <Col s={4}>
+                <Col  s={12} m={6} l={6} xl={4}>
                     <Card
                     className="RegionsCard"
                     closeIcon={<Icon>close</Icon>}
@@ -111,7 +111,7 @@ const Regions = () => {
                         </div>
                     </Card>
                 </Col>
-                <Col s={4}>
+                <Col  s={12} m={6} l={6} xl={4}>
                     <Card
                     className="RegionsCard"
                     closeIcon={<Icon>close</Icon>}
@@ -126,7 +126,7 @@ const Regions = () => {
                         </div>
                     </Card>
                 </Col>
-                <Col s={4}>
+                <Col  s={12} m={6} l={6} xl={4}>
                     <Card
                     className="RegionsCard"
                     closeIcon={<Icon>close</Icon>}
@@ -141,7 +141,7 @@ const Regions = () => {
                         </div>
                     </Card>
                 </Col>
-                <Col s={4}>
+                <Col  s={12} m={6} l={6} xl={4}>
                     <Card
                     className="RegionsCard"
                     closeIcon={<Icon>close</Icon>}
@@ -156,7 +156,7 @@ const Regions = () => {
                         </div>
                     </Card>
                 </Col>
-                <Col s={4}>
+                <Col  s={12} m={6} l={6} xl={4}>
                     <Card
                     className="RegionsCard"
                     closeIcon={<Icon>close</Icon>}
@@ -171,7 +171,7 @@ const Regions = () => {
                         </div>
                     </Card>
                 </Col>
-                <Col s={4}>
+                <Col  s={12} m={6} l={6} xl={4}>
                     <Card
                     className="RegionsCard"
                     closeIcon={<Icon>close</Icon>}
@@ -186,7 +186,7 @@ const Regions = () => {
                         </div>
                     </Card>
                 </Col>
-                <Col s={4}>
+                <Col  s={12} m={6} l={6} xl={4}>
                     <Card
                     className="RegionsCard"
                     closeIcon={<Icon>close</Icon>}
@@ -201,7 +201,7 @@ const Regions = () => {
                         </div>
                     </Card>
                 </Col>
-                <Col s={4}>
+                <Col  s={12} m={6} l={6} xl={4}>
                     <Card
                     className="RegionsCard"
                     closeIcon={<Icon>close</Icon>}
@@ -216,7 +216,7 @@ const Regions = () => {
                         </div>
                     </Card>
                 </Col>
-                <Col s={4}>
+                <Col s={12} m={6} l={6} xl={4}>
                     <Card
                     className="RegionsCard"
                     closeIcon={<Icon>close</Icon>}

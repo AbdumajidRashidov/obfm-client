@@ -11,7 +11,7 @@ const Contact = ()=>{
                     <Fade duration="2000"  triggerOnce="true">
                             <h1>Biz bilan bog’laning </h1>
                             <Col s={12}>
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11987.410678676199!2d69.2847483!3d41.3120686!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbf6944e05cf6bdb1!2s%22Mahalla%22%20xayriya%20jamoat%20fondi!5e0!3m2!1sru!2s!4v1618038816193!5m2!1sru!2s" width="100%" height="500" style={{border:"0",marginBottom:"120px"}} ></iframe>
+                                <iframe className="iframe" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11987.410678676199!2d69.2847483!3d41.3120686!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbf6944e05cf6bdb1!2s%22Mahalla%22%20xayriya%20jamoat%20fondi!5e0!3m2!1sru!2s!4v1618038816193!5m2!1sru!2s" width="100%" height="500" style={{border:"0",marginBottom:"120px"}} ></iframe>
                             </Col>
                             <div className="contactContent">
                                 <p className="contactLocation">Manzil</p>

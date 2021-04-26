@@ -49,3 +49,37 @@
         }
     }
 }
+
+@media(max-width:1440px){
+    .notificationsCard{
+        display: flex;
+        flex-direction: column;
+        img{
+            width: 200px;
+            height: 194px;
+            margin: 0 auto;
+        }
+    }
+}
+@media(max-width:992px){
+    .notificationsCard{
+        display: flex;
+        flex-direction: row;
+        img{
+            width: 160px;
+            height: 194px;
+            margin: 0 auto;
+        }
+    }
+}
+@media(max-width:600px){
+    .notificationsCard{
+        display: flex;
+        flex-direction: column;
+        img{
+            width: 200px;
+            height: 194px;
+            margin: 0 auto;
+        }
+    }
+}

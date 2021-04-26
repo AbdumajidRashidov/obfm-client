@@ -58,6 +58,24 @@ const Routing = ()=>{
       <Route path="/notifications" exact>
         <PressService></PressService>
       </Route>
+      <Route path="/management">
+        <AboutFond></AboutFond>
+      </Route>
+      <Route path="/central-management">
+        <AboutFond></AboutFond>
+      </Route>
+      <Route path="/organization-structure">
+        <AboutFond></AboutFond>
+      </Route>
+      <Route path="/charter">
+        <AboutFond></AboutFond>
+      </Route>
+      <Route path="/resgions">
+        <AboutFond></AboutFond>
+      </Route>
+      <Route path="/suborganizations">
+        <AboutFond></AboutFond>
+      </Route>
     </Switch>
       
   )

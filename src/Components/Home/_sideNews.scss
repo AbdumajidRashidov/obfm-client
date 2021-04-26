@@ -151,9 +151,9 @@
 @media(max-width:991px){
     .SideNews{
         .row{
-            .col{
+            .colmobile{
                 display: flex;
-                align-items: center;
+                flex-direction: row ;
             }
             .SideNewsCard{
                 width: 270px;
@@ -191,6 +191,26 @@
                     font-size: 16px;
                     line-height: 20px;
                 }
+            }
+        }
+        
+    }
+}
+
+
+
+@media(max-width:576px){
+    .SideNews{
+        .row{
+            .colmobile{
+                display: flex;
+                flex-direction: column;
+            }
+            .SideNewsCard{
+                width:100%;
+                margin: 0 0 15px 0px ;
+                box-shadow: none;
+                padding: 10px;
             }
         }
         

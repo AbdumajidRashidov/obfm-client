@@ -27,3 +27,12 @@
         }
     }
 }
+
+@media(max-width:1200px){
+    .SubOrganizations{
+        .SubOrganizationsCard{
+            padding: 10px ;
+            flex-direction: column;
+        }
+    }
+}

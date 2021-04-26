@@ -6,7 +6,7 @@ import { Slide,Fade } from "react-awesome-reveal";
 import MediatekaSidebar from './mediatekaSidebar'
 import Fotogalereya from './Fotogallery'
 import Videogalereya from './Videogallery'
-
+import Audiogalereya from './Audiogallery'
 
 const Routing = ()=>{
     const history = useHistory()
@@ -17,21 +17,21 @@ const Routing = ()=>{
         <Route path="/mediateka" exact>
             <Slide duration="1500" triggerOnce="true">
                 <Fade duration="1500"  triggerOnce="true">
-                        <Col s={9}><Fotogalereya/></Col>
+                        <Col s={12} l={9}><Fotogalereya/></Col>
                 </Fade>
             </Slide>
         </Route>
         <Route path="/videogalereya">
             <Slide duration="1500" triggerOnce="true">
                 <Fade duration="1500"  triggerOnce="true">
-                        <Col s={9}><Videogalereya/></Col>
+                        <Col s={12} l={9}><Videogalereya/></Col>
                 </Fade>
             </Slide>
         </Route>
         <Route path="/audiogalereya">
             <Slide duration="1500" triggerOnce="true">
                 <Fade duration="1500"  triggerOnce="true">
-                        {/* <Col s={9}><Management/></Col> */}
+                        <Col s={12} l={9}><Audiogalereya/></Col>
                 </Fade>
             </Slide>
         </Route>

@@ -70,3 +70,48 @@
             }
     }
 }
+
+@media(max-width:600px){
+    .iframe{
+        margin-bottom: 60px !important;
+    }
+    .contactContent{
+    background:transparent;
+    position: relative;
+    width: 100%;
+    left: 0px;
+    top: -30px;
+    .contactLocation{
+        font-size: 28px;
+        margin: 0px;
+    }
+    .location,.bus,.metro,.working_hours{
+            font-size: 14px;
+            line-height: 28px;
+            color: #2C3E50;
+            margin-bottom: 16px;
+        span{
+            margin-left: 5px;
+        }
+    }
+    .contactNumbers{
+        font-size: 28px;
+        margin-bottom: 0px;
+    }
+    .Helpline{
+        font-size: 16px;
+        span{
+            font-size: 24px;
+            line-height: 30px;
+        }
+    }
+    .phone,.email{
+            font-size: 16px;
+            line-height: 20px;
+            margin-bottom: 0px;
+            span{
+                margin-left: 10px;
+            }
+    }
+}
+}

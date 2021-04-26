@@ -265,6 +265,11 @@
         }
         .footerBottom{
             padding: 47px 0 0 0;
+            .imgIsolutions{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
             .copyWrap{
                 .copyMahalla{
                     font-size: 14px;

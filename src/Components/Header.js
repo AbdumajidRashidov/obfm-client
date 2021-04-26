@@ -73,7 +73,6 @@ const Header = () => {
                                 </Col>
                             </Row>
                         </div>
-                        
                     </Col>
                 </Row>
             </Container>

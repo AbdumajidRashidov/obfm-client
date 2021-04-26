@@ -80,10 +80,10 @@ const UZMap = () =>{
                         
                             <h1 className="regionName">{clickedName && <span>{clickedName}</span>} </h1>
                             <Row>
-                                <Col s={4}>
+                                <Col s={12} m={4}>
                                     <img className="regionImg" alt="imgRegion" src={clickedImg}/>
                                 </Col>
-                                <Col s={8} >
+                                <Col s={12} m={8} >
                                     <p className="RegionBoss">{clickedNameBoss && <span>{clickedNameBoss}</span>}</p>
                                     <p className="regionBossjob">Mahalla Xayriya Jamoat fondi {clickedName} raisi</p>
                                     <p className="receptionTime">Qabul:<span>10:00 - 12:00</span></p>
