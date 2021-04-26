@@ -49,7 +49,10 @@ const Routing = ()=>{
       <Route path="/mediateka">
         <Mediateka></Mediateka>
       </Route>
-      <Route path="/fotogalereya">
+      <Route path="/videogalereya">
+        <Mediateka></Mediateka>
+      </Route>
+      <Route path="/audiogalereya">
         <Mediateka></Mediateka>
       </Route>
       <Route path="/contact">

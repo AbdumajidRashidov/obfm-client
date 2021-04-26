@@ -25,8 +25,8 @@ const VolunteerHelpSidebar = () => {
                 </CollapsibleItem>
             </Collapsible>
                 <li className="sidebarListItem"><Link className="sidebarListItemLink" to='/gethelp'>Yordam olmoq</Link></li>
-                <li className="sidebarListItem"><Link className="sidebarListItemLink" to='/management'>Ko’rsatilgan xayriyalar</Link></li>
-                <li className="sidebarListItem"><Link className="sidebarListItemLink" to='/central-management'>Hisob raqamlari</Link></li>
+                <li className="sidebarListItem"><Link className="sidebarListItemLink" to='/chairtable-donations'>Ko’rsatilgan xayriyalar</Link></li>
+                <li className="sidebarListItem"><Link className="sidebarListItemLink" to='/account-numbers'>Hisob raqamlari</Link></li>
             </ul>
             <p><a  href='/volunteer-help' className="volunteerHelp">yordam bermoq</a></p>
             <p><a  href='/gethelp' className="getHelp">yordam olmoq</a></p>

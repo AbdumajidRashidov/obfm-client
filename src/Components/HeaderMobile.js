@@ -158,20 +158,20 @@ const HeaderMobile = () => {
                             header="Yordam bermoq"
                             node="div"
                         >
-                            <SideNavItem href="">Ko’p farzandli oilalar</SideNavItem>
-                            <SideNavItem href="">Kam ta’minlanganlar</SideNavItem>
-                            <SideNavItem href="">Yakka-yolg’iz keksalar</SideNavItem>
-                            <SideNavItem href="">Boquvchisini yoqotgan</SideNavItem>
-                            <SideNavItem href="">Ijtimoiy himoyaga muxtoj</SideNavItem>
-                            <SideNavItem href="">Urush va mehnat faxriylari</SideNavItem>
-                            <SideNavItem href="">Tabiiy ofatdan jabrlanganlar</SideNavItem>
-                            <SideNavItem href="">Nogironligi bo’lgan shaxslarga</SideNavItem>
+                            <SideNavItem href="/volunteer-help">Ko’p farzandli oilalar</SideNavItem>
+                            <SideNavItem href="/volunteer-help">Kam ta’minlanganlar</SideNavItem>
+                            <SideNavItem href="/volunteer-help">Yakka-yolg’iz keksalar</SideNavItem>
+                            <SideNavItem href="/volunteer-help">Boquvchisini yoqotgan</SideNavItem>
+                            <SideNavItem href="/volunteer-help">Ijtimoiy himoyaga muxtoj</SideNavItem>
+                            <SideNavItem href="/volunteer-help">Urush va mehnat faxriylari</SideNavItem>
+                            <SideNavItem href="/volunteer-help">Tabiiy ofatdan jabrlanganlar</SideNavItem>
+                            <SideNavItem href="/volunteer-help">Nogironligi bo’lgan shaxslarga</SideNavItem>
                         </CollapsibleItem>
                     </Collapsible>
                    
-                    <SideNavItem href="">Yordam olmoq</SideNavItem>
-                    <SideNavItem href="">Ko’rsatilgan xayriyalar</SideNavItem>
-                    <SideNavItem href="">Hisob raqamlari</SideNavItem>
+                    <SideNavItem href="/gethelp">Yordam olmoq</SideNavItem>
+                    <SideNavItem href="/chairtable-donations">Ko’rsatilgan xayriyalar</SideNavItem>
+                    <SideNavItem href="/account-numbers">Hisob raqamlari</SideNavItem>
                   </CollapsibleItem>
                   <CollapsibleItem
                     expanded={false}
@@ -179,8 +179,8 @@ const HeaderMobile = () => {
                     node="div"
                   >
                     <SideNavItem href="/mediateka">Fotogalereya</SideNavItem>
-                    <SideNavItem href="">Videogalereya</SideNavItem>
-                    <SideNavItem href="">Audiogalereya</SideNavItem>
+                    <SideNavItem href="/videogalereya">Videogalereya</SideNavItem>
+                    <SideNavItem href="/audiogalereya">Audiogalereya</SideNavItem>
                   </CollapsibleItem>
                   <CollapsibleItem
                     expanded={false}

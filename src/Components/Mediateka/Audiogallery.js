@@ -6,7 +6,7 @@ import { ReactAudio } from "reactjs-media/audio";
 const Audiogalereya = ()=>{
     return(
         <Row>
-            <Col s={6}>
+            <Col s={12} m={6}>
                 <div className="audioCard">
                     <p>Mahalla faollari yig’ilishidan</p>
                     <ReactAudio
@@ -15,7 +15,7 @@ const Audiogalereya = ()=>{
                     />
                 </div>
             </Col>
-            <Col s={6}>
+            <Col s={12} m={6}>
                 <div className="audioCard">
                     <p>Mahalla faollari yig’ilishidan</p>
                     <ReactAudio
@@ -24,7 +24,7 @@ const Audiogalereya = ()=>{
                     />
                 </div>
             </Col>
-            <Col s={6}>
+            <Col s={12} m={6}>
                 <div className="audioCard">
                     <p>Mahalla faollari yig’ilishidan</p>
                     <ReactAudio
@@ -33,7 +33,7 @@ const Audiogalereya = ()=>{
                     />
                 </div>
             </Col>
-            <Col s={6}>
+            <Col s={12} m={6}>
                 <div className="audioCard">
                     <p>Mahalla faollari yig’ilishidan</p>
                     <ReactAudio
@@ -42,7 +42,7 @@ const Audiogalereya = ()=>{
                     />
                 </div>
             </Col>
-            <Col s={6}>
+            <Col s={12} m={6}>
                 <div className="audioCard">
                     <p>Mahalla faollari yig’ilishidan</p>
                     <ReactAudio
@@ -51,7 +51,7 @@ const Audiogalereya = ()=>{
                     />
                 </div>
             </Col>
-            <Col s={6}>
+            <Col s={12} m={6}>
                 <div className="audioCard">
                     <p>Mahalla faollari yig’ilishidan</p>
                     <ReactAudio
@@ -60,7 +60,7 @@ const Audiogalereya = ()=>{
                     />
                 </div>
             </Col>
-            <Col s={6}>
+            <Col s={12} m={6}>
                 <div className="audioCard">
                     <p>Mahalla faollari yig’ilishidan</p>
                     <ReactAudio
@@ -69,7 +69,7 @@ const Audiogalereya = ()=>{
                     />
                 </div>
             </Col>
-            <Col s={6}>
+            <Col s={12} m={6}>
                 <div className="audioCard">
                     <p>Mahalla faollari yig’ilishidan</p>
                     <ReactAudio
