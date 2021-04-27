@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import 'materialize-css';
 import { Fade, Slide } from "react-awesome-reveal";
 import { Col, Row, TextInput, DatePicker, Select, Chip, Icon, Textarea, Checkbox, Button } from 'react-materialize';
@@ -7,6 +7,11 @@ import { Col, Row, TextInput, DatePicker, Select, Chip, Icon, Textarea, Checkbox
 
 
 const GetHelp = () => {
+    const [className, setClassName] = useState(true);
+    const changeClassName = (e)=>{
+         setClassName(e)
+         console.log(e)
+    }
     return (
         <Row>
             <form action="" className="gethelpForm">
@@ -296,13 +301,14 @@ const GetHelp = () => {
                         </h2>
 
                         <Chip
-                            className="active"
+                            className={`${className?"active":""}`}
                             close={false}
+                            onClick={()=>changeClassName(!className)}
                             closeIcon={<Icon className="close">close</Icon>}
                             options={null}
                         >
                             Boquvchisini yoqotgan
-                            </Chip>
+                        </Chip>
 
 
                         <Chip

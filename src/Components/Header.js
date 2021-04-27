@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useDebugValue } from 'react'
 import 'materialize-css'
 import { Col, Row, Container,Dropdown,Icon } from 'react-materialize';
 import logo from '../Images/static/logo1.png'
@@ -6,6 +6,23 @@ import weather from '../Images/static/weather.svg';
 import uzb from '../Images/static/uzb.svg'
 
 const Header = () => {
+    const valuta=[
+        {
+            id: 57,
+            Ccy: "RUB",
+            Rate: "140.81",
+            Diff: "+0.63",
+            "Date": "27.04.2021"
+        },
+        {
+            id: 69,
+            Code: "840",
+            Ccy: "USD",
+            Rate: "10548.18",
+            Diff: "+8.66",
+            "Date": "27.04.2021"
+        }
+    ]    
     return (
         <div className="header headerXl">
             <Container >
@@ -25,7 +42,7 @@ const Header = () => {
                                         <span className="weather_count">7</span>
                                         <span className="weather_celsiy_circle">&deg;</span>
                                         <span className="weather_celsiy">C</span>
-                                        <p className="usdvalute"><span className="usd">USD</span> = <span className="usd_count">10449.44</span>  <span className="usd_balance">-27.48</span></p>
+                                        <p className="usdvalute"><span className="usd">{valuta[1].Ccy}</span> = <span className="usd_count">{valuta[1].Rate}</span>  <span className="usd_balance">{valuta[1].Diff}</span></p>
                                     </div>
                                 </Col>
                                 <Col s={6}>
@@ -68,7 +85,7 @@ const Header = () => {
                                             </a>
                                         </Dropdown>
                                         
-                                        <p className="usdvalute"><span className="usd">RUB</span> = <span className="usd_count">140.44</span>  <span className="usd_balance">-53.48</span></p>
+                                        <p className="usdvalute"><span className="usd">{valuta[0].Ccy}</span> = <span className="usd_count">{valuta[0].Rate}</span>  <span className="usd_balance">{valuta[0].Diff}</span></p>
                                     </div>
                                 </Col>
                             </Row>
