@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, useHistory, Switch, Router } from 'react-router-dom'
+import { BrowserRouter, Route, useHistory, Switch } from 'react-router-dom'
 import 'materialize-css'
 import { Container, Row, Col } from 'react-materialize'
 import { Slide,Fade } from "react-awesome-reveal";

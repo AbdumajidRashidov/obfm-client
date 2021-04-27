@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, useHistory, Switch, Router } from 'react-router-dom'
+import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import 'materialize-css'
 import { Container, Row, Col } from 'react-materialize'
 import { Slide,Fade } from "react-awesome-reveal";
@@ -7,10 +7,7 @@ import VolunteerHelpSidebar from './VolunteerHelpNav'
 import ChairtableDonation from './CharitableDonations'
 import GetHelp from './GetHelp'
 const Routing = ()=>{
-    const history = useHistory()
-    
     return (
-     
       <Switch>
         <Route path="/volunteer-help" exact>
             <Slide duration="1500" triggerOnce="true">

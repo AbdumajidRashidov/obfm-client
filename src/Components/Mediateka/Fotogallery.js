@@ -1,6 +1,6 @@
 import React from 'react'
 import 'materialize-css'
-import { Container, Row, Col } from 'react-materialize'
+import {  Row, Col } from 'react-materialize'
 import { SRLWrapper } from "simple-react-lightbox";
 function Fotogalereya() {
   return (

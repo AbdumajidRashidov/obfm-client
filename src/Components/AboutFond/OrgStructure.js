@@ -1,6 +1,6 @@
 import React from 'react';
 import 'materialize-css'
-import { Container,Col, Row } from 'react-materialize'
+import { Col, Row } from 'react-materialize'
 import { Slide,Fade } from "react-awesome-reveal";
 
 const OrgStructure = () => {

@@ -1,6 +1,6 @@
 import React from 'react';
 import 'materialize-css'
-import { Container, Row, Col,Tabs,Tab,DatePicker, Icon,Slider,Caption,Slide } from 'react-materialize'
+import {  Row, Col,Slider,Caption,Slide } from 'react-materialize'
 import {  Fade } from "react-awesome-reveal";
 import ImgSlide from "../../Images/prezident.png"
 const Testimonials = () => {

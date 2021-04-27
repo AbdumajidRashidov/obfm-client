@@ -1,4 +1,4 @@
-import React, { useDebugValue } from 'react'
+import React from 'react'
 import 'materialize-css'
 import { Col, Row, Container,Dropdown,Icon } from 'react-materialize';
 import logo from '../Images/static/logo1.png'

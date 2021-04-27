@@ -1,7 +1,6 @@
 import React from 'react';
 import 'materialize-css'
 import { Container, Row, Col, Button, Icon } from 'react-materialize'
-import { Slide, Fade } from "react-awesome-reveal";
 import logo from '../Images/static/logo1.png'
 import { Link } from 'react-router-dom';
 import logoIsolutions from '../Images/static/isolutions.png'

@@ -1,6 +1,5 @@
 import React from 'react'
 import 'materialize-css';
-import { Fade, Slide } from "react-awesome-reveal";
 import NeediesCard from '../Home/NeedyCard'
 import { Col,Row } from 'react-materialize';
 

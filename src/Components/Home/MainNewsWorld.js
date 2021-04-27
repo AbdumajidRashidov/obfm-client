@@ -1,7 +1,6 @@
 import React from 'react';
 import 'materialize-css'
 import {  Card, CardTitle, Icon, Chip, Row, Col } from 'react-materialize'
-import mainNewsImg from '../../Images/mainnews.png'
 
 const MainNews = () => {
     return (

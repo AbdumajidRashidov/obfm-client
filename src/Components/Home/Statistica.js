@@ -1,6 +1,6 @@
 import React from 'react';
 import 'materialize-css'
-import { Container, Row, Col,Tabs,Tab,DatePicker, Icon } from 'react-materialize'
+import {  Row, Col,Tabs,Tab,DatePicker, Icon } from 'react-materialize'
 import { Slide,Fade } from "react-awesome-reveal";
 import MultiAxisLine from './MultiAxisLIne'
 import DoughnutChart from './PieChart'

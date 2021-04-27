@@ -1,6 +1,5 @@
 import React from 'react'
 import 'materialize-css';
-import { Fade, Slide } from "react-awesome-reveal";
 import { Col,Row,Icon,Modal,Button } from 'react-materialize';
 
 

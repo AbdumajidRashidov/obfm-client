@@ -1,15 +1,13 @@
-import React from 'react';
+import React,{useState} from 'react';
 import { Link } from 'react-router-dom';
 import 'materialize-css'
 import {Container,Row,Col} from 'react-materialize'
 
 const Nav = () => {
-    let className = ['navLinksListItemLink']
-    const addActiveClass = () => {
-        className.push('active') 
-        console.log(className)
-        
-    } 
+    const [className, setClassName] = useState('Home');
+    const changeClassName = (e)=>{
+         setClassName(e)
+    }
     return (
         <div className="navbar">
             <Container>
@@ -17,13 +15,13 @@ const Nav = () => {
                     <Col s={12}>
                         <div className="navLinks">
                             <ul className="navLinksList">
-                                <li className="navLinksListItem"><Link to='/' className="active" onClick={()=> addActiveClass()}>Asosiy</Link></li>
-                                <li className="navLinksListItem"><Link to='/aboutfond' className={ className } onClick={()=> addActiveClass()}>Fond haqida</Link></li>
-                                <li className="navLinksListItem"><Link to='/statistica' className={ className } onClick={()=> addActiveClass()}>Statistika</Link></li>
-                                <li className="navLinksListItem"><Link to='/press-service' className={ className } onClick={()=> addActiveClass()}>Matbuot xizmati</Link></li>
-                                <li className="navLinksListItem"><Link to='/volunteer-help' className={ className } onClick={()=> addActiveClass()}>Ko’ngilli yordam</Link></li>
-                                <li className="navLinksListItem"><Link to='/mediateka' className={ className } onClick={()=> addActiveClass()}>Mediateka</Link></li>
-                                <li className="navLinksListItem"><Link to='/contact' className={ className } onClick={()=> addActiveClass()}>Bog’lanish</Link></li>
+                                <li className="navLinksListItem"><Link to='/' onClick={()=>changeClassName("Home")} className ={`${className==="Home"? "active":"navLinksListItemLink"}`}>Asosiy</Link></li>
+                                <li className="navLinksListItem"><Link to='/aboutfond' onClick={()=>changeClassName("aboutFond")} className ={`${className==="aboutFond"? "active":"navLinksListItemLink"}`}>Fond haqida</Link></li>
+                                <li className="navLinksListItem"><Link to='/statistica' onClick={()=>changeClassName("statistica")} className ={`${className==="statistica"? "active":"navLinksListItemLink"}`}>Statistika</Link></li>
+                                <li className="navLinksListItem"><Link to='/press-service' onClick={()=>changeClassName("pressService")} className ={`${className==="pressService"? "active":"navLinksListItemLink"}`}>Matbuot xizmati</Link></li>
+                                <li className="navLinksListItem"><Link to='/volunteer-help' onClick={()=>changeClassName("getHelp")} className ={`${className==="getHelp"? "active":"navLinksListItemLink"}`}>Ko’ngilli yordam</Link></li>
+                                <li className="navLinksListItem"><Link to='/mediateka' onClick={()=>changeClassName("mediateka")} className ={`${className==="mediateka"? "active":"navLinksListItemLink"}`}>Mediateka</Link></li>
+                                <li className="navLinksListItem"><Link to='/contact' onClick={()=>changeClassName("contact")} className ={`${className==="contact"? "active":"navLinksListItemLink"}`}>Bog’lanish</Link></li>
                             </ul>
                         </div>
                     </Col>

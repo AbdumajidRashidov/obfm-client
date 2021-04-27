@@ -1,7 +1,6 @@
 import React from 'react';
 import 'materialize-css'
-import { Container, Row, Col,Tabs,Tab,DatePicker, Icon,Slider,Caption,MediaBox } from 'react-materialize'
-import { Fade, Slide } from "react-awesome-reveal";
+import { Row, Col} from 'react-materialize'
 import { Link } from 'react-router-dom';
 import payme from '../../Images/static/payme.svg';
 import click from '../../Images/static/click.svg';

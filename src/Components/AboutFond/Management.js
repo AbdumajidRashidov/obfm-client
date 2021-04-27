@@ -1,7 +1,7 @@
 import React from 'react';
 import 'materialize-css'
-import { Container, Tabs, Tab, Card, Icon, CardTitle } from 'react-materialize'
-import { Slide, Fade } from "react-awesome-reveal";
+import {  Tabs, Tab, Card, Icon, CardTitle } from 'react-materialize'
+
 import manager from '../../Images/static/Manager.JPG'
 
 const Management = () => {

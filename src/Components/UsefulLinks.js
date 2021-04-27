@@ -1,6 +1,6 @@
 import React from 'react';
 import 'materialize-css'
-import { Container, Row, Col } from 'react-materialize'
+import { Container, Row } from 'react-materialize'
 import { Slide, Fade } from "react-awesome-reveal";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { Autoplay } from 'swiper';

@@ -1,7 +1,6 @@
 import React from 'react';
 import 'materialize-css'
-import { Container,Col, Tab,Card,Icon,CardTitle, Row } from 'react-materialize'
-import { Slide,Fade } from "react-awesome-reveal";
+import { Col,Card,Icon,CardTitle, Row } from 'react-materialize'
 import logosaxovat from '../../Images/static/logosaxovat.png'
 
 const SubOrganizations = () => {

@@ -1,15 +1,12 @@
 import React from 'react';
-import { BrowserRouter, Route, useHistory, Switch, Router } from 'react-router-dom'
+import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import 'materialize-css'
 import { Container, Row, Col } from 'react-materialize'
 import { Slide,Fade } from "react-awesome-reveal";
 import Notifications from './Notifications'
 import PressServiceSidebar from './PressServiceNav'
 const Routing = ()=>{
-    const history = useHistory()
-    
     return (
-     
       <Switch>
         <Route path="/press-service" exact>
             <Slide duration="1500" triggerOnce="true">

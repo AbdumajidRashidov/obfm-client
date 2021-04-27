@@ -1,8 +1,5 @@
 import React from 'react';
 import 'materialize-css'
-import { Container, Row, Col } from 'react-materialize'
-import { Slide,Fade } from "react-awesome-reveal";
-
 
 const Charter = ()=>{
     return(

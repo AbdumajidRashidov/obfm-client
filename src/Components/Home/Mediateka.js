@@ -1,7 +1,6 @@
 import React from 'react';
 import 'materialize-css'
-import { Container, Row, Col,Tabs,Tab,DatePicker, Icon,Slider,Caption,MediaBox } from 'react-materialize'
-import { Fade,Slide } from "react-awesome-reveal";
+import {  Row, Col,MediaBox } from 'react-materialize'
 import { ReactVideo } from "reactjs-media";
 import { ReactAudio } from "reactjs-media/audio";
 import poster from '../../Images/poster.png'

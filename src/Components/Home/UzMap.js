@@ -1,10 +1,9 @@
 import React,{useState} from 'react';
 import { VectorMap } from '@south-paw/react-vector-maps';
 import 'materialize-css'
-import {  Card, CardTitle, Icon,Row, Col, Container } from 'react-materialize'
+import {  Row, Col} from 'react-materialize'
 import uzb from './uzbekistan.json';
 import styled from 'styled-components'
-import { Slide,Fade } from "react-awesome-reveal";
 
 
 

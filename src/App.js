@@ -15,7 +15,6 @@ import Footer from './Components/Footer';
 import HeaderMobile from './Components/HeaderMobile'
 const Routing = ()=>{
   const history = useHistory()
-  
   return (
    
     <Switch>

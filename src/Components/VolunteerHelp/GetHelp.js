@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import 'materialize-css';
-import { Fade, Slide } from "react-awesome-reveal";
-import { Col, Row, TextInput, DatePicker, Select, Chip, Icon, Textarea, Checkbox, Button } from 'react-materialize';
+import { Col, Row, TextInput, DatePicker, Select, Chip, Icon, Textarea,  Button } from 'react-materialize';
 
 
 
