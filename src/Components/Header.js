@@ -27,13 +27,13 @@ const Header = () => {
         <div className="header headerXl">
             <Container >
                 <Row>
-                    <Col s={8} m={7} l={8}>
-                        <div className="logo_wrapp">
+                    <Col s={8} m={7} l={8} xl={9}>
+                        <a href="/" className="logo_wrapp">
                             <img src={logo} />
                             <p>“Mahalla” xayriya jamoat fondi</p>
-                        </div>
+                        </a>
                     </Col>
-                    <Col s={4} m={5} l={4}  >
+                    <Col s={4} m={5} l={4} xl={3} >
                         <div className="weather_lang_valute">
                             <Row>
                                 <Col s={6}>

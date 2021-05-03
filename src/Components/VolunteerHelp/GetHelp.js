@@ -24,7 +24,7 @@ const GetHelp = () => {
                         <h2>
                             Shaxsiy ma’lumotlar
                         </h2>
-                        <Col s={4}>
+                        <Col s={12} m={6} l={4}>
                             <TextInput
                                 className="input"
                                 text
@@ -32,7 +32,7 @@ const GetHelp = () => {
                                 label="Ismingiz"
                             />
                         </Col>
-                        <Col s={4}>
+                        <Col s={12} m={6} l={4}>
                             <TextInput
                                 className="input"
                                 text
@@ -40,7 +40,7 @@ const GetHelp = () => {
                                 label="Familiyangiz"
                             />
                         </Col>
-                        <Col s={4}>
+                        <Col s={12} m={6} l={4}>
                             <DatePicker
                                 id="DatePicker-10"
                                 className="input"
@@ -138,7 +138,7 @@ const GetHelp = () => {
                         <h2>
                             Manzil
                         </h2>
-                        <Col s={4}>
+                        <Col s={12} m={6} l={4}>
                             <Select
                                 className="select"
                                 id="Select-10"
@@ -213,7 +213,7 @@ const GetHelp = () => {
                                 </option>
                             </Select>
                         </Col>
-                        <Col s={4}>
+                        <Col s={12} m={6} l={4}>
                             <TextInput
                                 className="input"
                                 text
@@ -221,7 +221,7 @@ const GetHelp = () => {
                                 label="Tuman"
                             />
                         </Col>
-                        <Col s={4}>
+                        <Col s={12} m={6} l={4}>
                             <TextInput
                                 text
                                 className="input"
@@ -236,7 +236,7 @@ const GetHelp = () => {
                         <h2>
                             Aloqa
                         </h2>
-                        <Col s={4}>
+                        <Col s={12} m={6} l={4}>
                             <Select
                                 id="Select-11"
                                 className="select"
@@ -275,7 +275,7 @@ const GetHelp = () => {
                                 </option>
                             </Select>
                         </Col>
-                        <Col s={4}>
+                        <Col s={12} m={6} l={4}>
                             <TextInput
                                 text
                                 className="input"
@@ -283,7 +283,7 @@ const GetHelp = () => {
                                 label="Telefon raqamingiz"
                             />
                         </Col>
-                        <Col s={4}>
+                        <Col s={12} m={6} l={4}>
                             <TextInput
                                 email
                                 className="input"
@@ -386,7 +386,7 @@ const GetHelp = () => {
                 <Col s={12}>
                     <Row>
                         <h2>Murojaat oshkoraligi</h2>
-                        <Col s={4}>
+                        <Col s={12} m={4} l={5}>
                             <Row>
                                 <Col s={6} style={{marginTop:"20px"}}>
                                 <label className="checkbox">
@@ -402,7 +402,7 @@ const GetHelp = () => {
                                 </Col>
                             </Row>
                         </Col>
-                        <Col s={8}>
+                        <Col s={12} m={8} l={7}>
                         <div class="file-field input-field">
                             <div class="btn" style={{ backgroundColor:"#6b93ff", borderRadius:"12px 0 0 12px",height:"54px",boxShadow:"none"}}>
                                 <span style={{padding:"20px 20px 10px 20px"}}>Rasmni yuklang</span>
@@ -417,8 +417,8 @@ const GetHelp = () => {
                 </Col>
                 <Col s={12}>
                     <Row>
-                        <Col s={4}>
-                            <Button node="button" type="submit" waves="light" style={{borderRadius:"12px",backgroundColor:"#6B93FF",boxShadow:"none",fontSize: "20px",padding:"15px 147px",height:"65px"}}>
+                        <Col s={12} m={6} l={4}>
+                            <Button node="button" type="submit" waves="light" style={{borderRadius:"12px",backgroundColor:"#6B93FF",boxShadow:"none",fontSize: "20px",padding:"15px 100px",height:"65px",width:"100%"}}>
                                 yuborish
                             </Button>
                         </Col>

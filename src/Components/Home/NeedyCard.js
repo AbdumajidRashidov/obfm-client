@@ -27,10 +27,10 @@ const NeediesCard = () => {
                                 <p className="amount_tobe_paid">600 000 <span>so'm</span></p>
                             </Col>
                         </Row>
-                        <Link to="/volunteer-help" className="volunterHelp">
+                        <a href="/volunteer-help/id" className="volunterHelp">
                             <span>Yordam bermoq</span>
                             <Icon className="iconChevron">chevron_right</Icon>
-                        </Link>
+                        </a>
                     </Card>
                 </Col>
             </Row>

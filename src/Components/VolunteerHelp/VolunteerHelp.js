@@ -12,14 +12,14 @@ const Routing = ()=>{
         <Route path="/volunteer-help" exact>
             <Slide duration="1500" triggerOnce="true">
                 <Fade duration="1500"  triggerOnce="true">
-                        <Col s={9}><ChairtableDonation/></Col>
+                        <Col s={12} l={9}><ChairtableDonation/></Col>
                 </Fade>
             </Slide>
         </Route>
         <Route path="/gethelp">
             <Slide duration="1500" triggerOnce="true">
                 <Fade duration="1500"  triggerOnce="true">
-                        <Col s={9}><GetHelp/></Col>
+                        <Col s={12} l={9}><GetHelp/></Col>
                 </Fade>
             </Slide>
         </Route>

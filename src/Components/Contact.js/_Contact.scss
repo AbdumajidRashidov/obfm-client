@@ -71,7 +71,91 @@
     }
 }
 
-@media(max-width:600px){
+@media(max-width:1440px){
+    .iframe{
+        margin-bottom: 60px !important;
+    }
+    .contactContent{
+    right: 100px !important;
+    left: auto;
+    top: 50px;
+    .contactLocation{
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+    .location,.bus,.metro,.working_hours{
+            font-size: 16px;
+            line-height: 28px;
+            color: #2C3E50;
+            margin-bottom: 26px;
+        span{
+            margin-left: 5px;
+        }
+    }
+    .contactNumbers{
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+    .Helpline{
+        font-size: 20px;
+        span{
+            font-size: 26px;
+            line-height: 30px;
+        }
+    }
+    .phone,.email{
+            font-size: 20px;
+            line-height: 26px;
+            margin-bottom: 20px;
+            span{
+                margin-left: 10px;
+            }
+    }
+}
+}
+@media(max-width:1200px){
+    .iframe{
+        margin-bottom: 60px !important;
+    }
+    .contactContent{
+    left: auto;
+    top: 20px;
+    padding: 20px;
+    .contactLocation{
+        font-size: 24px;
+        margin: 0px;
+    }
+    .location,.bus,.metro,.working_hours{
+            font-size: 14px;
+            line-height: 24px;
+            color: #2C3E50;
+            margin-bottom: 16px;
+        span{
+            margin-left: 5px;
+        }
+    }
+    .contactNumbers{
+        font-size: 24px;
+        margin-bottom: 0px;
+    }
+    .Helpline{
+        font-size: 16px;
+        span{
+            font-size: 20px;
+            line-height: 30px;
+        }
+    }
+    .phone,.email{
+            font-size: 16px;
+            line-height: 20px;
+            margin-bottom: 0px;
+            span{
+                margin-left: 10px;
+            }
+    }
+}
+}
+@media(max-width:992px){
     .iframe{
         margin-bottom: 60px !important;
     }

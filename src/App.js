@@ -13,6 +13,7 @@ import Contact from './Components/Contact.js/Contact'
 import UsefulLinks from './Components/UsefulLinks'
 import Footer from './Components/Footer';
 import HeaderMobile from './Components/HeaderMobile'
+import VolunteerHelpId from './Components/VolunteerHelp/VolunteerHelpId'
 const Routing = ()=>{
   const history = useHistory()
   return (
@@ -39,7 +40,7 @@ const Routing = ()=>{
       <Route path="/press-service">
         <PressService></PressService>
       </Route>
-      <Route path="/volunteer-help">
+      <Route path="/volunteer-help" exact>
         <VolunteerHelp></VolunteerHelp>
       </Route>
       <Route path="/gethelp">
@@ -57,7 +58,7 @@ const Routing = ()=>{
       <Route path="/contact">
         <Contact></Contact>
       </Route>
-      <Route path="/notifications" exact>
+      <Route path="/notifications" >
         <PressService></PressService>
       </Route>
       <Route path="/management">
@@ -77,6 +78,9 @@ const Routing = ()=>{
       </Route>
       <Route path="/suborganizations">
         <AboutFond></AboutFond>
+      </Route>
+      <Route path="/volunteer-help/id" >
+        <VolunteerHelpId></VolunteerHelpId>
       </Route>
     </Switch>
       
